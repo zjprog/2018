@@ -1,0 +1,9 @@
+# Zaczynamy!
+
+* https://github.com/uohzxela/clean-code-ruby[🛁 Clean Code concepts adapted for Ruby] –
+na wykładzie wyjaśnimy dokładniej kilka rzeczy, np. co dokładnie oznacza skrótowiec SOLID,
+co to jest refaktoryzacja, co rozumiemy przez code smell
+* https://www.sandimetz.com/products[Literatura] – wystarczą nam tylko dwie książki
+Sandi Metz
+* i kilka filmów z YouTube:
+** Sandi Metz, https://www.youtube.com/watch?v=mpA2F1In41w[Go Ahead, Make a Mess]
