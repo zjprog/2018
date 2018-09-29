@@ -1,4 +1,4 @@
-# 2.10.2018, zaczynamy :smile:
+# 2.10.2018 🚀
 
 * Zaczynamy od przeczytania/przejrzenia
   https://github.com/uohzxela/clean-code-ruby[🛁 Clean Code concepts adapted for Ruby]. +
