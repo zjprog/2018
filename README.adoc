@@ -1,4 +1,4 @@
-# Zaczynamy!
+# 2.10.2018 🚀
 
 * Zaczynamy od przeczytania/przejrzenia
   https://github.com/uohzxela/clean-code-ruby[🛁 Clean Code concepts adapted for Ruby]. +
@@ -8,8 +8,15 @@
   czy kod który _smells_ to przeciwieństwo kodu który jest _clean_.
 
 * https://www.sandimetz.com/products[Literatura] – na początek wystarczą nam
-  dwie książki Sandi Metz i kilka jej prezentacji z YouTube:
+  dwie książki Sandi Metz i jej prezentacja z YouTube:
 ** https://www.youtube.com/watch?v=mpA2F1In41w[Go Ahead, Make a Mess]
+
+Znajdujemy _usterki_ w kodzie:
+
+. http://ruby.sadi.st/Flog.html[Flog].
+. http://ruby.sadi.st/Flay.html[Flay].
+. https://www.sandimetz.com/blog/2017/9/13/breaking-up-the-behemoth[Breaking Up the Behemoth] –
+  zob. _#3: Churn and Complexity_.
 
 
 ## Laboratorium
@@ -17,3 +24,6 @@
 Zaczynamy od założenia konta na portalu https://exercism.io[Exercism],
 wybrania jednego z **tracks** z językiem obiektowym i przerobienia dwóch
 pierwszych ćwiczeń.
+
+. https://docs.rubocop.org/en/latest/[RuboCop] – static code analyzer (a.k.a. linter) and code formatter.
+. https://github.com/whitesmith/rubycritic[RubyCritics] – a Ruby code quality reporter.
