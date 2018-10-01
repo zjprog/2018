@@ -1,0 +1,287 @@
+# https://refactoring.com/catalog/[Katalog Refaktoryzacji]
+:source-highlighter: pygments
+:pygments-style: pastie
+:icons: font
+:experimental:
+
+Source: Refactoring – Ruby Edition by Jay Fields et al.
+
+Lista zapachów w kodzie (ang. _code smells_): ::
+  Duplicated Code (zduplikowany kod),
+  Long Method (długa metoda),
+  Large Class (duża klasa),
+  Long Parameter List (długa lista parametrów),
+  Divergent Change (rozbieżne zmiany),
+  Shotgun Surgery (fala uderzeniowa),
+  http://wiki.c2.com/?FeatureEnvySmell[Feature Envy] (zazdrosne metody),
+  Data Clumps (stada danych),
+  Primitive Obsession / Open Secret (opętanie prymitywami),
+  Case Statement (instrukcja case),
+  Parallel Inheritance Hierarchies (równoległe hierarchie dziedziczenia),
+  Lazy Class (leniwa klasa),
+  Speculative Generality (spekulacyjne uogólnienia),
+  Temporary Field (pole tymczasowe),
+  Message Chains (łańcuchy komunikatów),
+  Middle Man (pośrednik),
+  Inappriopriate Intimacy (niestosowna bliskość),
+  Alternative Classes with Different Interfaces (alternatywne klasy z różnymi interfejsami),
+  Incomplete Library Class (niekompletna klasa biblioteczna),
+  Data Class (klasa danych),
+  Refused Bequest (odmowa przyjęcia spadku),
+  Comments (komentarze),
+  Metaprogramming Madness (szaleństwo metaprogramowania),
+  Disjointed API (rozłączne API),
+  Repetitive Boilerplate (powtarzający się szablon).
+
+
+## Composing Methods (Konstrukcja metod)
+
+Extract Method (Ekstrakcja metody)::
+  You have a code fragment that can be grouped together. +
+  _Turn the fragment into a method whose name explains the purpose of the method._
+Inline Method (Wchłonięcie metody)::
+  A method's body is just as clear as its name. +
+  _Put the method's body into the body of its callers and remove the method._
+Inline Temp (Wchłonięcie zmiennej tymczasowej)::
+  You have a temp that is assigned to once with a simple expression, and the temp is getting in the way of other refactorings.
+  _Replace all references to that temp with the expression._
+Replace Temp with Query (Zastąpienie zmiennej tymczasoej zapytaniem)::
+  You are using a temporary variable to hold the result of an expression. +
+  _Extract the expression into a method. Replace all references to the temp with the expression. The new method can then be used in other methods._
+Replace Temp with Chain::
+  You are using a temporary variable to hold the result of an expression. +
+  _Change the methods to support chaining, thus removing the need for a temp._
+Introduce Explaining Variable (Wprowadzenie zmiennej objaśniającej)::
+  You have a complicated expression. +
+  _Put the result of the expression, or parts of the expression, in a temporary vari- able with a name that explains the purpose._
+Split Temporary Variable (Podział zmiennej tymczzasowej)::
+  You have a temporary variable assigned to more than once, but it is not a loop variable nor a collecting temporary variable. +
+  _Make a separate temporary variable for each assignment._
+Remove Assignments to Parameters (Eliminacja przypisania wartości parametrom)::
+  The code assigns to a parameter. +
+  Use a temporary variable instead.
+Replace Method with Method Object (Zastąpienie metody obiektem)::
+  You have a long method that uses local variables in such a way that you cannot apply Extract Method. +
+  _Turn the method into its own object so that all the local variables become instance variables on that object. You can then decompose the method into other methods on the same object._
+Substitute Algorithm (Zastąpienie Algorytmu)::
+  You want to replace an algorithm with one that is clearer. +
+  _Replace the body of the method with the new algorithm._
+Replace Loop with Collection Closure Method::
+  You are processing the elements of a collection in a loop. +
+  _Replace the loop with a collection closure method._
+Extract Surrounding Method::
+  You have two methods that contain nearly identical code. The variance is in the middle of the method. +
+  _Extract the duplication into a method that accepts a block and yields back to the caller to execute the unique code._
+Introduce Class Annotation::
+  You have a method whose implementation steps are so common that they can safely be hidden away. +
+  _Declare the behavior by calling a class method from the class definition._
+Introduce Named Parameter::
+  The parameters in a method call cannot easily be deduced from the name of the method you are calling. +
+  _Convert the parameter list into a Hash, and use the keys of the Hash as names for the parameters._
+Remove Named Parameter::
+  The fluency that the named parameter brings is no longer worth the complexity on the receiver. +
+  _Convert the named parameter Hash to a standard parameter list._
+Remove Unused Default Parameter::
+  A parameter has a default value, but the method is never called without the parameter. +
+  _Remove the default value._
+Dynamic Method Definition::
+  You have methods that can be defined more concisely if defined dynamically. +
+  _Define the methods dynamically._
+Replace Dynamic Receptor with Dynamic Method Definition::
+  You have methods you want to handle dynamically without the pain of debug- ging method_missing. +
+  _Use dynamic method definition to define the necessary methods._
+Isolate Dynamic Receptor::
+  A class utilizing method_missing has become painful to alter.
+  _Introduce a new class and move the method_missing logic to that class._
+Move Eval from Runtime to Parse Time::
+  You need to use eval but want to limit the number of times eval is necessary. +
+  _Move the use of eval from within the method definition to defining the method itself._
+
+
+## Moving Features Between Objects (Przenoszenie składowych między obiektami)
+
+Move Method (Przeniesienie Metody)::
+  A method is, or will be, using or used by more features of another class than the class on which it is defined. +
+  _Create a new method with a similar body in the class it uses most. Either turn the old method into a simple delegation, or remove it altogether._
+Move Field (Przeniesienie pola)::
+  A field is, or will be, used by another class more than the class on which it is defined. +
+  _Create a new attribute reader (and if necessary, a writer) in the target class, and change all its users._
+Extract Class (Ekstrakcja klasy)::
+  You have one class doing work that should be done by two. +
+  _Create a new class and move the relevant fields and methods from the old class into the new class._
+Inline Class (Wchłonięcie klasy)::
+  A class isn’t doing very much. +
+  _Move all its features into another class and delete it._
+Hide Delegate (Ukrycie delegata)::
+  A client is calling a delegate class of an object. +
+  _Create methods on the server to hide the delegate._
+Remove Middle Man (Usinięcie pośrednika)::
+  A class is doing too much simple delegation. +
+  _Get the client to call the delegate directly._
+
+
+## Organizing Data (Organizacja danych)
+
+Self Encapsulate Field (Samoenkapsulacja pola)::
+  You are accessing a field directly, but the coupling to the field is becoming awkward. +
+  _Create getting and setting methods for the field and use only those to access the field._
+Replace Data Value with Object (Zastąpienie typu prostego obiektem)::
+  You have a data item that needs additional data or behavior. +
+  _Turn the data item into an object._
+Change Reference to Value (Zamiana referencji na wartość)::
+  You have a reference object that is small, immutable, and awkward to manage. +
+  _Turn it into a value object._
+Replace Array with Object (Zastąpienie tablicy obiektem)::
+  You have an Array in which certain elements mean different things. +
+  _Replace the Array with an object that has a field for each element._
+Replace Hash with Object::
+  You have a Hash that stores several different types of objects, and is passed around and used for more than one purpose. +
+  _Replace the Hash with an object that has a field for each key._
+Change Unidirectional Association to Bidirectional (Zamiana asocjacji jednokierunkowej na dwukierunkową)::
+  You have two classes that need to use each other’s features, but there is only a one-way link. +
+  _Add back pointers, and change modifiers to update both sets._
+Change Bidirectional Association to Unidirectional (Zastąpienie asocjacji dwukierunkowej na jednokierunkową)::
+  You have a two-way association but one class no longer needs features from the other. +
+  _Drop the unneeded end of the association._
+Replace Magic Number with Symbolic Constant (Zastąpienie magicznej liczby stałą syboliczną)::
+  You have a literal number with a particular meaning. +
+  _Create a constant, name it after the meaning, and replace the number with it._
+Encapsulate Collection (Enkapsulacja kolekcji)::
+  A method returns a collection. +
+  _Make it return a copy of the collection and provide add/remove methods._
+Replace Record with Data Class (Zastąpienie rekordu klasą z danymi)::
+  You need to interface with a record structure in a traditional programming environment. +
+  _Make a dumb data object for the record._
+Replace Type Code with Polymorphism::
+  You have a type code that affects the behavior of a class. +
+  _Replace the type code with classes: one for each type code variant._
+Replace Type Code with Module Extension (Zastąpienie typu kodu włączeniem modułu)::
+  You have a type code that affects the behavior of a class. +
+  _Replace the type code with dynamic module extension._
+Replace Type Code with State/Strategy (Zastąpienie kodu typu wzorcem Stan lub Strategia)::
+  You have a type code that affects the behavior of a class and the type code changes at runtime. +
+  _Replace the type code with a state object._
+Replace Subclass with Fields (Zastąpienie podklasy polami)::
+  You have subclasses that vary only in methods that return constant data.
+  _Change the methods to superclass fields and eliminate the subclasses._
+Lazily Initialized Attribute::
+  Initialize an attribute on access instead of at construction time.
+Eagerly Initialized Attribute::
+  Initialize an attribute at construction time instead of on the first access.
+
+
+## Simplifying Conditional Expressions (Upraszczanie wyrażeń warunkowych)
+
+Decompose Conditional (Dekompozycja instrukcji warunkowej)::
+  You have a complicated conditional (if-then-else) statement. +
+  _Extract methods from the condition, “then” part, and “else” parts._
+Recompose Conditional::
+  You have conditional code that is unnecessarily verbose and does not use the most readable Ruby construct. +
+  _Replace the conditional code with the more idiomatic Ruby construct._
+Consolidate Conditional Expression (Scalenie instrukcji warunkowej)::
+  You have a sequence of conditional tests with the same result. +
+  _Combine them into a single conditional expression and extract it._
+Remove Control Flag (Usunięcie flagi kontrolnej)::
+  You have a variable that is acting as a control flag for a series of boolean expressions. +
+  _Use a break or return instead._
+Replace Nested Conditional with Guard Clauses (Zastąpienie zagnieżdżonej instrukcji warunkowej instrukcją wyjścia)::
+  A method has conditional behavior that does not make clear the normal path of execution. +
+  _Use guard clauses for all the special cases._
+Replace Conditional with Polymorphism (Zastąpienie instrukcji warunkowej olimorfizmem)::
+  You have a conditional that chooses different behavior depending on the type of an object. +
+  _Move each leg of the conditional to a method in an object that can be called polymorphically._
+Introduce Null Object (Wprowadzenie obiektu pustego)::
+  You have repeated checks for a nil value. +
+  _Replace the nil value with a null object._
+Introduce Assertion (Wprowadzenie asercji)::
+  A section of code assumes something about the state of the program. +
+  _Make the assumption explicit with an assertion._
+
+
+## Making Method Calls Simpler (upraszczanie wywołań metod)
+
+Rename Method (Zmiana nazwy metody)::
+  The name of a method does not reveal its purpose. +
+  _Change the name of the method._
+Add Parameter (Dodanie parametru)::
+  A method needs more information from its caller. +
+  _Add a parameter for an object that can pass on this information._
+Remove Parameter (Usunięcie parametru)::
+  A parameter is no longer used by the method body. +
+  _Remove it._
+Separate Query from Modifier (Rozdzielenie zapytania i modyfikacji)::
+  You have a method that returns a value and also changes the state of an object. +
+  _Create two methods, one for the query and one for the modification._
+Parameterize Method (Parametryzacja metody)::
+  Several methods do similar things but with different values contained in the method body. +
+  _Create one method that uses a parameter for the different values._
+Replace Parameter with Explicit Methods (Zastąpienie parametru metodami o różnych nazwach)::
+  You have a method that runs different code depending on the values of an enumerated parameter. +
+  _Create a separate method for each value of the parameter._
+Preserve Whole Object (Przekazanie całego obiektu)::
+  You are getting several values from an object and passing these values as parameters in a method call. +
+  _Send the whole object instead._
+Replace Parameter with Method (Zastąpienie parametru metodą)::
+  An object invokes a method, then passes the result as a parameter for a method. The receiver can also invoke this method. +
+  _Remove the parameter and let the receiver invoke the method._
+Introduce Parameter Object (Wprowadzenie obiektu parametrycznego)::
+  You have a group of parameters that naturally go together. +
+  _Replace them with an object._
+Remove Setting Method (Usunięcie metody ustawiającej wartość)::
+  A field should be set at creation time and never altered. +
+  _Remove any setting method for that field._
+Hide Method (Ukrycie metody)::
+  A method is not used by any other class. +
+  _Make the method private._
+Replace Constructor with Factory Method (Zastąpienie konstruktora metodą wytwórczą)::
+  You want to do more than simple construction when you create an object. +
+  _Replace the constructor with a factory method._
+Replace Error Code with Exception (Zastąpienie kodu błędu na wyjątek)::
+  A method returns a special code to indicate an error. +
+  _Raise an exception instead._
+Replace Exception with Test (Zastąpienie wyjątku testem)::
+  You are raising an exception on a condition the caller could have checked first. +
+  _Change the caller to make the test first._
+Introduce Gateway::
+  You want to interact with a complex API of an external system or resource in a simplified way. +
+  _Introduce a Gateway that encapsulates access to an external system or resource._
+Introduce Expression Builder::
+  You want to interact with a public interface in a more fluent manner and not muddy the interface of an existing object. +
+  _Introduce an Expression Builder and create an interface specific to your application._
+
+
+## Dealing with Generalization (Praca z hierarchią dziedziczenia)
+
+Pull Up Method (Przesunięcie pola w górę hierarchii)::
+  You have methods with identical results on subclasses. +
+  _Move them to the superclass._
+Push Down Method (Przesunięcie metody w dół hierarchii)::
+  Behavior on a superclass is relevant only for some of its subclasses. +
+  _Move it to those subclasses._
+Extract Module (Ekstrakcja Modułu)::
+  You have duplicated behavior in two or more classes. +
+  _Create a new module and move the relevant behavior from the old class into the module, and include the module in the class._
+Inline Module (Wchłonięcie modułu)::
+  The resultant indirection of the included module is no longer worth the duplication it is preventing. +
+  _Merge the module into the including class._
+Extract Subclass (Ekstrakcja podklasy)::
+  A class has features that are used only in some instances. +
+  _Create a subclass for that subset of features._
+Introduce Inheritance (Wprowadzenie dziedziczenia)::
+  You have two classes with similar features. +
+  _Make one of the classes a superclass and move the common features to the superclass._
+Collapse Hierarchy (Zwinięcie hierarchii)::
+  A superclass and subclass (or module and the class that includes the module) are not very different. +
+  _Merge them together._
+Form Template Method (Utworzenie metody szablonowej)::
+  You have two methods in subclasses that perform similar steps in the same order, yet the steps are different. +
+  _Get the steps into methods with the same signature, so that the original methods become the same. Then you can pull them up._
+Replace Inheritance with Delegation (Zamiana dziedziczenia delegacją)::
+  A subclass uses only part of a superclass interface or does not want to inherit data. +
+  _Create a field for the superclass, adjust methods to delegate to the superclass, and remove the subclassing._
+Replace Delegation with Hierarchy (Zastąpienie delegacji dziedziczeniem)::
+  You’re using delegation and are often writing many simple delegations for the entire interface. +
+  _Make the delegate a module and include it into the delegating class._
+Replace Abstract Superclass with Module (Zastąpienie superklasy abstrakcyjnej modułem)::
+  You have an inheritance hierarchy, but never intend to explicitly instantiate an instance of the superclass. +
+  _Replace the superclass with a module to better communicate your intention._
