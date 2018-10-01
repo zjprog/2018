@@ -1,5 +1,7 @@
-# 2.10.2018 🚀
 :figure-caption!:
+:tocs!:
+
+## 2.10.2018 🚀
 
 * Zaczynamy od przeczytania/przejrzenia
   https://github.com/uohzxela/clean-code-ruby[🛁 Clean Code concepts adapted for Ruby]. +
@@ -15,19 +17,31 @@
 .Source https://r-stylelab.com/company/blog/web-development/from-tdd-to-bdd-when-to-switch-and-how-to-apply[From TDD to BDD: When to Switch and How to Apply]
 image::images/tdd-cycle.png[TDD Cycle, 575, 386]
 
-Znajdujemy _usterki_ w kodzie:
 
-. http://ruby.sadi.st/Flog.html[Flog].
-. http://ruby.sadi.st/Flay.html[Flay].
-. https://www.sandimetz.com/blog/2017/9/13/breaking-up-the-behemoth[Breaking Up the Behemoth] –
+## Laboratoria
+
+
+### 1. Znajdujemy _usterki_ w kodzie
+
+Metrics & Style.
+
+. http://ruby.sadi.st/Flog.html[Flog] (complexity).
+. http://ruby.sadi.st/Flay.html[Flay] (complexity).
+. https://docs.rubocop.org/en/latest/[RuboCop] – static code analyzer (a.k.a. linter) and code formatter (style).
+
+Code smels, churn, complexity.
+
+. https://github.com/whitesmith/rubycritic[RubyCritics] – a Ruby code quality reporter.
+.. https://www.sandimetz.com/blog/2017/9/13/breaking-up-the-behemoth[Breaking Up the Behemoth] –
   zob. _#3: Churn and Complexity_.
 
 
-## Laboratorium
+### 2. Piszemy kod do gotowych testów
 
-Zaczynamy od założenia konta na portalu https://exercism.io[Exercism],
-wybrania jednego z **tracks** z językiem obiektowym i przerobienia dwóch
-pierwszych ćwiczeń.
+Zakładamy konto na portalu https://exercism.io[Exercism].
+Następnie wybieramy **tracks** z językiem obiektowym i przerabiamy
+ćwiczenia (10+).
 
-. https://docs.rubocop.org/en/latest/[RuboCop] – static code analyzer (a.k.a. linter) and code formatter.
-. https://github.com/whitesmith/rubycritic[RubyCritics] – a Ruby code quality reporter.
+### 3. Code smells & Reek
+
+TODO.
