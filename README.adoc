@@ -43,6 +43,12 @@ Zakładamy konto na portalu https://exercism.io[Exercism].
 Następnie wybieramy **tracks** z językiem obiektowym i przerabiamy
 ćwiczenia (10+).
 
+
 ### 3. Code smells & Reek
 
 TODO.
+
+
+### 4. Refactorings
+
+link:refactorings.adoc[Oficjalna lista code smells i refaktoryzacji].
