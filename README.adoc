@@ -75,11 +75,11 @@ flog -ad verse.rb # --all --details
 Programu **reek** można użyć do wypisania „zapachów” w projekcie napisanym w języku Ruby:
 
 ```sh
-reek -f json KATALOG | jq .[].wiki_link -r  | sort | uniq -c | sort -n
+reek -f json KATALOG | jq .[].documentation_link -r  | sort | uniq -c | sort -n
 ```
 Przykład:
 ```sh
-reek -f json lib | jq .[].wiki_link -r  | sort | uniq -c | sort -n
+reek -f json lib | jq .[].documentation_link -r  | sort | uniq -c | sort -n
 ```
 
 Tutaj jest **link:refactorings.adoc[oficjalna lista code smells i refaktoryzacji]**
