@@ -20,8 +20,7 @@ image::images/tdd-cycle.png[TDD Cycle, 575, 386]
 
 ## Laboratoria
 
-
-### 1. Znajdujemy _usterki_ w kodzie
+### 2. Znajdujemy _usterki_ w kodzie
 
 Metrics, Duplication, Style.
 
@@ -30,25 +29,70 @@ Metrics, Duplication, Style.
 . http://ruby.sadi.st/Flay.html[Flay] (structural similarities).
 . https://docs.rubocop.org/en/latest/[RuboCop] – static code analyzer (a.k.a. linter) and code formatter (style).
 
-Code smels, churn, complexity.
+#### ABC – discovering pain code
+
+Do wyszukiwania _pain in Ruby code_ użyjemy narzędzia 
+https://github.com/seattlerb/flog[Flog] – the higher the
+score, the more pain the code is in. 
+
+.verse.rb
+```ruby
+def verse(n)
+  "#{n == 0 ? 'No more' : n} bottle#{'s' if n != 1}" +
+  " of beer on the wall, " +
+  "#{n == 0 ? 'no more' : n} bottle#{'s' if n != 1} of beer.\n" +
+  "#{n > 0  ? "Take #{n > 1 ? 'one' : 'it'} down and pass it around"
+            : "Go to the store and buy some more"}, " +
+  "#{n-1 < 0 ? 99 : n-1 == 0 ? 'no more' : n-1} bottle#{'s' if n-1 != 1}"+
+  " of beer on the wall.\n"
+end
+```
+
+```sh
+flog -ad verse.rb # --all --details
+    36.2: flog total
+    36.2: flog/method average
+
+    36.2: main#verse                       verse.rb:1-8
+    15.2:   branch
+     7.0:   +
+     6.5:   -
+     5.3:   ==
+     5.2:   !=
+     4.1:   lit_fixnum
+     3.3:   >
+     1.4:   <
+```
+
+### 3. Znajdujemy _problemy w kodzie_ – code smels, churn
 
 . https://github.com/whitesmith/rubycritic[RubyCritics] – a Ruby code quality reporter.
 .. https://www.sandimetz.com/blog/2017/9/13/breaking-up-the-behemoth[Breaking Up the Behemoth] –
   zob. _#3: Churn and Complexity_.
 
+#### The smell of the week
 
-### 2. Piszemy kod do gotowych testów
+Programu **reek** można użyć do wypisania „zapachów” w projekcie napisanym w języku Ruby:
+
+```sh
+reek -f json KATALOG | jq .[].wiki_link -r  | sort | uniq -c | sort -n
+```
+Przykład:
+```sh
+reek -f json lib | jq .[].wiki_link -r  | sort | uniq -c | sort -n
+```
+
+Tutaj jest **link:refactorings.adoc[oficjalna lista code smells i refaktoryzacji]**
+dla języka Ruby i Java.
+Znaleźć trzy najczęściej występujące zapachy w jakimś większym projekcie Ruby.
+
+
+### 10. Piszemy kod do gotowych testów
 
 Zakładamy konto na portalu https://exercism.io[Exercism].
 Następnie wybieramy **tracks** z językiem obiektowym i przerabiamy
 ćwiczenia (10+).
 
 
-### 3. Code smells & Reek
+### 4. Refactoryzacje
 
-TODO.
-
-
-### 4. Refactorings
-
-link:refactorings.adoc[Oficjalna lista code smells i refaktoryzacji].
