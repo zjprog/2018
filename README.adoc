@@ -20,7 +20,7 @@ image::images/tdd-cycle.png[TDD Cycle, 575, 386]
 
 ## Laboratoria
 
-### 2. Znajdujemy _usterki_ w kodzie
+### 2. Wyszukujemy _niezrozumiałe_ fragmenty kodu
 
 Metrics, Duplication, Style.
 
@@ -29,7 +29,7 @@ Metrics, Duplication, Style.
 . http://ruby.sadi.st/Flay.html[Flay] (structural similarities).
 . https://docs.rubocop.org/en/latest/[RuboCop] – static code analyzer (a.k.a. linter) and code formatter (style).
 
-#### ABC – discovering pain code
+#### ABC of discovering a pain in the code
 
 Do wyszukiwania _pain in Ruby code_ użyjemy narzędzia 
 https://github.com/seattlerb/flog[Flog] – the higher the
@@ -64,13 +64,13 @@ flog -ad verse.rb # --all --details
      1.4:   <
 ```
 
-### 3. Znajdujemy _problemy w kodzie_ – code smels, churn
+### 3. Wyszukujemy _problemy w kodzie_ – code smels, churn
 
 . https://github.com/whitesmith/rubycritic[RubyCritics] – a Ruby code quality reporter.
 .. https://www.sandimetz.com/blog/2017/9/13/breaking-up-the-behemoth[Breaking Up the Behemoth] –
   zob. _#3: Churn and Complexity_.
 
-#### The smell of the week
+#### The coode smell of the week
 
 Programu **reek** można użyć do wypisania „zapachów” w projekcie napisanym w języku Ruby:
 
