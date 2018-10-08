@@ -20,7 +20,7 @@ image::images/tdd-cycle.png[TDD Cycle, 575, 386]
 
 ## Laboratoria
 
-### 2. Wyszukujemy _niezrozumiałe_ fragmenty kodu
+### 1, 2. Wyszukujemy _niezrozumiałe_ fragmenty kodu
 
 Metrics, Duplication, Style.
 
