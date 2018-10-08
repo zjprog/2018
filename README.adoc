@@ -75,24 +75,22 @@ flog -ad verse.rb # --all --details
 Programu **reek** można użyć do wypisania „zapachów” w projekcie napisanym w języku Ruby:
 
 ```sh
-reek -f json KATALOG | jq .[].documentation_link -r  | sort | uniq -c | sort -n
+reek -f json KATALOG | jq .[].documentation_link -r  | sort | uniq -c | sort -r
 ```
 Przykład:
 ```sh
-reek -f json lib | jq .[].documentation_link -r  | sort | uniq -c | sort -n
+reek -f json lib | jq .[].documentation_link -r  | sort | uniq -c | sort -r
 ```
 
 Tutaj jest **link:refactorings.adoc[oficjalna lista code smells i refaktoryzacji]**
 dla języka Ruby i Java.
-Znaleźć trzy najczęściej występujące zapachy w jakimś większym projekcie Ruby.
+Znaleźć trzy najczęściej występujące oficjalne zapachy w jakimś większym projekcie Ruby.
+
+Na ile linijek kodu, średnio, wypada jeden zapach.
 
 
-### 10. Piszemy kod do gotowych testów
+### 20. Piszemy kod do gotowych testów
 
 Zakładamy konto na portalu https://exercism.io[Exercism].
 Następnie wybieramy **tracks** z językiem obiektowym i przerabiamy
 ćwiczenia (10+).
-
-
-### 4. Refactoryzacje
-
