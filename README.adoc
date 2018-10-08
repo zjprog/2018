@@ -70,7 +70,7 @@ flog -ad verse.rb # --all --details
 .. https://www.sandimetz.com/blog/2017/9/13/breaking-up-the-behemoth[Breaking Up the Behemoth] –
   zob. _#3: Churn and Complexity_.
 
-#### The coode smell of the week
+#### The code smell of the week
 
 Programu **reek** można użyć do wypisania „zapachów” w projekcie napisanym w języku Ruby:
 
