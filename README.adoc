@@ -77,18 +77,20 @@ flog -ad verse.rb # --all --details
 
 ### 3. Wyszukujemy _problemy w kodzie_ – code smels, churn
 
-. https://github.com/whitesmith/rubycritic[RubyCritics] – a Ruby code quality reporter.
+Uruchomić https://github.com/whitesmith/rubycritic[RubyCritics] – a Ruby code quality reporter –
+na większym projekcie napisanym w języku Ruby.
 
-#### The code smell of the week
+#### Code smell of the week
 
 Programu **reek** można użyć do wypisania „zapachów” w projekcie napisanym w języku Ruby:
 
 ```sh
 reek -f json KATALOG | jq .[].documentation_link | sort | uniq -c | sort -n
 ```
-Przykład:
+Jeśli katalog zawiera nie tylko pliki z kodem w języku Ruby, to modyfikujemy nieco to polecenie,
+na przykład tak:
 ```sh
-reek -f json lib | jq .[].documentation_link | sort | uniq -c | sort -n
+find lib -name '*.rb' | xargs reek -f json  | jq .[].documentation_link | sort | uniq -c | sort -n
 ```
 
 Tutaj jest **link:refactorings.adoc[oficjalna lista code smells i refaktoryzacji]**
