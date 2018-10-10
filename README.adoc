@@ -37,7 +37,7 @@ Metrics, Duplication, Churn, Style.
 . http://ruby.sadi.st/Flog.html[Flog] (ABC complexity).
 . http://ruby.sadi.st/Flay.html[Flay] (structural similarities).
 . https://www.sandimetz.com/blog/2017/9/13/breaking-up-the-behemoth[Breaking Up the Behemoth] –
-  zob. pkt \#3: for Churn.
+  zob. pkt. #3: for Churn.
 . https://docs.rubocop.org/en/latest/[RuboCop] – static code analyzer (a.k.a. linter) and code formatter (style).
 
 #### ABC of discovering a pain in the code
