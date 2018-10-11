@@ -21,7 +21,8 @@ ____
 
 * https://www.sandimetz.com/products[Literatura] – na początek wystarczą nam
   dwie książki Sandi Metz i jej prezentacja z YouTube:
-** https://www.youtube.com/watch?v=mpA2F1In41w[Go Ahead, Make a Mess]
+** https://www.youtube.com/watch?v=mpA2F1In41w[Go Ahead, Make a Mess]; zob. też
+   Joe Armstrong, one of the inventors of Erlang, https://www.youtube.com/watch?v=lKXe3HUG2l4[The Mess We're In]
 
 .Source https://r-stylelab.com/company/blog/web-development/from-tdd-to-bdd-when-to-switch-and-how-to-apply[From TDD to BDD: When to Switch and How to Apply]
 image::images/tdd-cycle.png[TDD Cycle, 575, 386]
