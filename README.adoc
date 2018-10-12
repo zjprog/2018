@@ -34,7 +34,7 @@ image::images/tdd-cycle.png[TDD Cycle, 575, 386]
 
 **Metrics, Duplication, Churn, Style – koniec XX wieku.**
 
-. https://github.com/AlDanial/cloc[Cloc] (counts)
+. https://github.com/AlDanial/cloc[Cloc] (counts).
 . http://ruby.sadi.st/Flog.html[Flog] (ABC complexity).
 . http://ruby.sadi.st/Flay.html[Flay] (structural similarities).
 . https://www.sandimetz.com/blog/2017/9/13/breaking-up-the-behemoth[Breaking Up the Behemoth] –
