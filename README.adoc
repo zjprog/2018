@@ -30,9 +30,9 @@ image::images/tdd-cycle.png[TDD Cycle, 575, 386]
 
 ## Laboratoria
 
-### 1, 2. Wyszukujemy _niezrozumiałe_ fragmenty kodu
+### 1, 2. Wyszukujemy w kodzie fragmenty _WTF_
 
-Metrics, Duplication, Churn, Style.
+Metrics, Duplication, Churn, Style. [**timeline: XX w.**]
 
 . https://github.com/AlDanial/cloc[Cloc] (counts)
 . http://ruby.sadi.st/Flog.html[Flog] (ABC complexity).
@@ -43,9 +43,9 @@ Metrics, Duplication, Churn, Style.
 
 #### ABC of discovering a pain in the code
 
-Do wyszukiwania _pain in Ruby code_ użyjemy narzędzia 
+Do wyszukiwania _pain in Ruby code_ użyjemy narzędzia
 https://github.com/seattlerb/flog[Flog] – the higher the
-score, the more pain the code is in. 
+score, the more pain the code is in.
 
 .verse.rb
 ```ruby
@@ -76,7 +76,7 @@ flog -ad verse.rb # --all --details
      1.4:   <
 ```
 
-### 3. Wyszukujemy _problemy w kodzie_ – code smels, churn
+### 3. Wyszukujemy i naprawiamy _problemy w kodzie_ – code smels, refactoring [**ok. 2000 r, Kent Beck**]
 
 Uruchomić https://github.com/whitesmith/rubycritic[RubyCritics] – a Ruby code quality reporter –
 na większym projekcie napisanym w języku Ruby.
