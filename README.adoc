@@ -78,7 +78,7 @@ flog -ad verse.rb # --all --details
 
 ### 3. Wyszukujemy i naprawiamy _problemy w kodzie_
 
-**Code smells, refactorings - początek XXI wieku, Kent Beck.**
+**Code smells, refactorings – początek XXI wieku, Kent Beck.**
 
 Uruchomić https://github.com/whitesmith/rubycritic[RubyCritics] – a Ruby code quality reporter –
 na większym projekcie napisanym w języku Ruby.
