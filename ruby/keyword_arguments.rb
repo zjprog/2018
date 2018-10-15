@@ -1,18 +1,3 @@
-# Ian C. Anderson, Ruby 2 Keyword Arguments
-#
-# add in ~/.atom/packages/script/styles/script.less
-# .script-view {
-#   .panel-body pre {
-#     background: @tool-panel-background-color;
-#     color: @text-color;
-#     font-size: 1.2rem;
-#   }
-#
-# .atom/packages/linter-ui-default/styles/bottom-panel.less
-# .sb-table.linter {
-#   color: @text-color;
-#   font-size: 1.3 * @font-size;
-
 def foo(bar: 'default')
   puts bar
 end
