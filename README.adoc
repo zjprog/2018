@@ -45,7 +45,8 @@ image::images/tdd-cycle.png[TDD Cycle, 575, 386]
 
 Do wyszukiwania _pain in Ruby code_ użyjemy narzędzia
 https://github.com/seattlerb/flog[Flog] – the higher the
-score, the more pain the code is in.
+score, the more pain the code is in; zob. też Bryan Helmkamp,
+https://codeclimate.com/blog/deciphering-ruby-code-metrics/[Deciphering Ruby Code Metrics]
 
 .verse.rb
 ```ruby
