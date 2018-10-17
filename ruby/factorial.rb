@@ -11,7 +11,7 @@ end
 
 class Integer
   def fact
-    #  zero? ? 1 : self * (self - 1).fact
+    # zero? ? 1 : self * (self - 1).fact
     if zero?
       return 1
     else
