@@ -30,7 +30,7 @@ image::images/tdd-cycle.png[TDD Cycle, 575, 386]
 
 ## Laboratoria
 
-### 1, 2, 3, 4. Wyszukujemy w kodzie fragmenty _WTF_
+### 1–4. Wyszukujemy w kodzie fragmenty _WTF_
 
 **Metrics, Duplication, Churn, Style – koniec XX wieku.**
 
@@ -79,22 +79,23 @@ flog -ad verse.rb # --all --details
      1.4:   <
 ```
 
-### 5, 6, 7. Narzędzia projektowania: Zasady i Wzorce
+### 5–7. Narzędzia projektowania: Zasady i Wzorce
 
 Dokładniej: podstawowe zasasdy i wzorce projektowe.
 Wzorcom projektowym poświęcony jest inny wykład.
 
-* SOLID – coined by Michael Feathers and popularized by Robert Martin:
- _*S*ingle Responsibility_, 
- _*O*pen-Closed_, 
- _*L*iskov Substitution_,
- _*I*nterface Segregation_,
- _*D*ependency Inversion_. 
+* https://pl.wikipedia.org/wiki/SOLID_(programowanie_obiektowe)[SOLID] –
+  coined by Michael Feathers and popularized by Robert Martin:
+  _**S**ingle Responsibility_,
+  _**O**pen-Closed_,
+  _**L**iskov Substitution_,
+  _**I**nterface Segregation_,
+  _**D**ependency Inversion_.
 
 * https://en.wikipedia.org/wiki/Don%27t_repeat_yourself[DRY (Don’t Repeat Yourself)] –
 Andy Hunt and Dave Thomas’s
 
-* https://pl.wikipedia.org/wiki/Prawo_Demeter[LoD (the Law of Demeter)] – 
+* https://pl.wikipedia.org/wiki/Prawo_Demeter[LoD (the Law of Demeter)] –
   the Demeter project at Northeastern University
 
 
@@ -124,7 +125,7 @@ Znaleźć trzy najczęściej występujące oficjalne zapachy w jakimś większym
 
 Na ile linijek kodu, średnio, wypada jeden zapach.
 
-### 13, 14, 15. Prezentacje projektow na wykładach.
+### Wykłady 13, 14, 15 – prezentacje projektow
 
 
 ## Zapoznajemy się z cyklem TDD
