@@ -30,7 +30,7 @@ image::images/tdd-cycle.png[TDD Cycle, 575, 386]
 
 ## Laboratoria
 
-### 1, 2. Wyszukujemy w kodzie fragmenty _WTF_
+### 1, 2, 3, 4. Wyszukujemy w kodzie fragmenty _WTF_
 
 **Metrics, Duplication, Churn, Style – koniec XX wieku.**
 
@@ -79,7 +79,23 @@ flog -ad verse.rb # --all --details
      1.4:   <
 ```
 
-### 3. Wyszukujemy i naprawiamy _problemy w kodzie_
+### 5, 6, 7. Narzędzia projektowania: Zasady (i Wzorce)
+
+Dokładniej: podstawowe zasasdy (i wzorce projektowe).
+
+* SOLID – coined by Michael Feathers and popularized by Robert Martin:
+ _*S*ingle Responsibility_, 
+ _*O*pen-Closed_, 
+ _*L*iskov Substitution_,
+ _*I*nterface Segregation_,
+ _*D*ependency Inversion_. 
+
+* DRY (Don’t Repeat Yourself) – Andy Hunt and Dave Thomas’s
+
+* LoD (the Law of Demeter) – the Demeter project at Northeastern University
+
+
+### 8–12. Wyszukujemy i naprawiamy _problemy w kodzie_
 
 **Code smells, refactorings – początek XXI wieku, Kent Beck.**
 
@@ -105,8 +121,10 @@ Znaleźć trzy najczęściej występujące oficjalne zapachy w jakimś większym
 
 Na ile linijek kodu, średnio, wypada jeden zapach.
 
+### 13, 14, 15. Prezentacje projektow na wykładach.
 
-### 20. Piszemy kod do gotowych testów
+
+## Zapoznajemy się z cyklem TDD
 
 Zakładamy konto na portalu https://exercism.io[Exercism].
 Następnie wybieramy **tracks** z językiem obiektowym i przerabiamy
