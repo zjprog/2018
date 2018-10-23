@@ -1,7 +1,7 @@
 :figure-caption!:
 :tocs!:
 
-## [red]#2.10.2018# 🚀
+## 2.10.2018 🚀
 
 ----
 
@@ -17,7 +17,7 @@ ____
 * Zaczynamy od przeczytania/przejrzenia
   https://github.com/uohzxela/clean-code-ruby[🛁 Clean Code concepts adapted for Ruby]. +
   Na wykładzie wyjaśnimy dokładniej niektóre opisanych tam
-  **zaawansowanych** rzeczy, na przykład co oznacza skrótowiec SOLID,
+  **zaawansowanych** [red]#rzeczy#, na przykład co oznacza skrótowiec SOLID,
   co rozumiemy przez refaktoryzację kodu oraz
   czy kod który _smells_ to przeciwieństwo kodu który jest _clean_.
 
