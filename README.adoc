@@ -79,9 +79,13 @@ flog -ad verse.rb # --all --details
      1.4:   <
 ```
 
+See http://www.methods.co.nz/asciidoc/chunked/ch10.html[Chapter 10. Text Formatting] for examples
+of colored, line-through formatting.
+
+
 ### 5–7. Narzędzia projektowania – Zasady i Wzorce
 
-Dokładniej: podstawowe zasasdy i wzorce projektowe.
+Dokładniej: podstawowe zasady i wzorce projektowe.
 
 NOTE: Wzorcom projektowym poświęcony jest inny wykład.
 
