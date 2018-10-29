@@ -28,6 +28,20 @@ ____
 image::images/tdd-cycle.png[TDD Cycle, 575, 386]
 
 
+## Note about Ruby language
+
+**Ruby is very friendly.**
+
+The language permits nearly anyone to create scripts to automate repetitive
+tasks, and an opinionated framework like _Ruby on Rails_ puts web applications
+within every programmer’s reach.
+
+The syntax of the Ruby language is so gentle that anyone blessed with the
+ability to string thoughts into logical order can produce working applications.
+
+**Programmers who know nothing about object-oriented design can be very successful in Ruby.**
+
+
 ## Laboratoria
 
 ### 1–4. Wyszukujemy w kodzie fragmenty _WTF_
