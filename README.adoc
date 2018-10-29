@@ -28,7 +28,7 @@ ____
 image::images/tdd-cycle.png[TDD Cycle, 575, 386]
 
 
-## Note about Ruby language
+## Note about Ruby language from Sandi Metz
 
 **Ruby is very friendly.**
 
