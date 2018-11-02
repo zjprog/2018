@@ -95,9 +95,7 @@ See http://www.methods.co.nz/asciidoc/chunked/ch10.html[Chapter 10. Text Formatt
 of colored, line-through formatting.
 
 
-### 5–7. Narzędzia projektowania – Zasady i Wzorce
-
-Dokładniej: podstawowe zasady i wzorce projektowe.
+### 5–7. Narzędzia projektowania – Podstawow Zasady
 
 NOTE: Wzorcom projektowym poświęcony jest inny wykład.
 
@@ -114,6 +112,22 @@ Andy Hunt and Dave Thomas’s
 
 * https://pl.wikipedia.org/wiki/Prawo_Demeter[LoD (the Law of Demeter)] –
   the Demeter project at Northeastern University
+
+Prześledzić jak zmieniał się kod wybranej klasy w czasie. Wykorzystać w tym celu polecenie _git_.
+Przykładowo, polecenie poniżej _list all commits for a specific file_:
+
+```sh
+git log --follow -- filename
+
+git clone git@github.com:tootsuite/mastodon.git
+cd mastodon
+git log --follow -- app/controllers/api/v1/statuses/pins_controller.rb
+git checkout 9caa90
+bat app/controllers/api/v1/statuses/pins_controller.rb
+git co master
+
+git log --follow master -- app/controllers/api/v1/statuses/pins_controller.rb
+```
 
 
 ### 8–12. Wyszukujemy i naprawiamy _problemy w kodzie_
