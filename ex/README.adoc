@@ -1,0 +1,34 @@
+## Przykładowe programy
+
+. Kalkulator liczb rzeczywistych z operatorami: +-*/|&^!** log ();
+uruchomienie: calc.rb wyrazenie Tutaj całość jest prosta do momentu w którym
+trzeba zaimplementować nawiasy. Zwykle tłumaczę że wtedy trzeba zrobić sobie
+parser z maszyną stanów, ewentualnie konwertować wyrażenie na odwrotną notację
+polską i zaimplementować stos.
+
+. Analizator dat urodzin który wyszuka daty w słowniku (np. d2w.rb 20181103)
+To dość prosty program. Opiera się na pomyśle, że w rubym można konwertować
+podstawy systemów liczbowych i dzięki temu np. data urodzenia np. moja
+skonwertowana za pomocą wyrażenia 19720815.to_s(36) generuje napis "bqoof".
+Należy podać datę i program ma sprawdzić, czy dany ciąg liter występuje w
+słowniku języka polskiego (mamy taki słownik z aspella, zawiera ponad 100k słów
+polskich z odmianą). Program w takiej wersji jest za prosty, i jego rozwinięcie
+może być dość ciekawe: można zażądać odwrotnej operacji – zamiany słowa na
+datę. Niestety, np. "piotr".to_i(36) generuje liczbę 42862383, która nie jest
+prawidłową datą. Jeżeli jednak przyjmiemy taką datę w której podano dowolną
+liczbę miesięcy (23) i dni (83), to można wyliczyć prawidłową datę która
+powstanie po dodaniu 13 miesięcy i 83 dni do roku 4285. Zadanie wtedy polega na
+tym, aby program wyszukał zbliżone do danego wyrazu daty, które mają jakiś
+sens.
++
+Można też byłoby podać datę i program miałby poszukać słów ze słownika
+pasujących do pewnego obszaru czasu wokół daty. Za to zadanie zabrały się osoby
+początkujące, ale moim zdaniem nie jest ono tak do końca proste.
+
+. Kalkulator liczb zespolonych w postaci zespolonej wielomianowej (np. icalc.rb
+"2i+3i") Tutaj podniosłem poprzeczkę i zażądałem, aby liczby zespolone miały
+postać ogólną, złożoną z sumy liczby rzeczywistej i dowolnej liczby czynników
+urojonych, w postaci a+bi+cj+... aż do jakiegoś n. To zadanie przeraziło
+wszystkich na tyle, że chyba nikt go nie próbuje, a w gruncie rzeczy sprowadza
+się ono do ogranięcia mnożenia wielomianów... Bo kalkulator ma być akurat dość
+prosty.
