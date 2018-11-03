@@ -10,7 +10,6 @@ end
 # an example
 class Fox < Animal
   def self.breeds
-    #  ["snow fox", 'desert fox']
     ['snow fox', 'desert fox']
   end
 
