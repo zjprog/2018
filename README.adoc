@@ -99,6 +99,8 @@ of colored, line-through formatting.
 
 NOTE: Wzorcom projektowym poświęcony jest inny wykład.
 
+* https://github.com/emilybache/GildedRose-Refactoring-Kata[Gilded Rose Refactoring Kata]; zob. też http://iamnotmyself.com/2011/02/13/refactor-this-the-gilded-rose-kata/[Refactor This: The Gilded Rose Kata].
+
 * https://pl.wikipedia.org/wiki/SOLID_(programowanie_obiektowe)[SOLID] –
   coined by Michael Feathers and popularized by Robert Martin:
   _**S**ingle Responsibility_,
