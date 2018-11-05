@@ -32,3 +32,29 @@ urojonych, w postaci a+bi+cj+... aż do jakiegoś n. To zadanie przeraziło
 wszystkich na tyle, że chyba nikt go nie próbuje, a w gruncie rzeczy sprowadza
 się ono do ogranięcia mnożenia wielomianów... Bo kalkulator ma być akurat dość
 prosty.
+
+
+## Więcej przykładów
+
+1. Prześledzić jak zmieniał się kod wybranej klasy w czasie. Wykorzystać w tym celu polecenie _git_
+(_git --log_).
+
+Przykładowo, polecenie poniżej wypisuje wszystkie commits dla podanego pliku:
+
+```sh
+git log --follow -- filename
+
+git clone git@github.com:tootsuite/mastodon.git
+cd mastodon
+git log --follow -- app/controllers/api/v1/statuses/pins_controller.rb
+git checkout 9caa90
+bat app/controllers/api/v1/statuses/pins_controller.rb
+git co master
+```
+
+Zob. też https://softwareengineering.stackexchange.com/questions/371653/measuring-file-churn-over-entire-project-history-in-git[Measuring File Churn Over Entire Project History in Git].
+
+```ruby
+git log --format=oneline app/controllers/api/v1/statuses/pins_controller.rb
+git log --format=oneline --numstat app/controllers/api/v1/statuses/pins_controller.rb
+```
