@@ -101,6 +101,7 @@ No rules KATA.
 
 * https://github.com/emilybache/GildedRose-Refactoring-Kata[Gilded Rose Refactoring Kata]
 ** http://iamnotmyself.com/2011/02/13/refactor-this-the-gilded-rose-kata/[Refactor This: The Gilded Rose Kata]
+** https://bettercodehub.com[https://bettercodehub.com]
 
 Rules.
 
