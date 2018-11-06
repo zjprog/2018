@@ -42,7 +42,7 @@ ability to string thoughts into logical order can produce working applications.
 
 ## Laboratoria
 
-### 1–4. Wyszukujemy w kodzie fragmenty _WTF_
+### 1–4. Measuring Code Quality – WTF, ABC Complexity
 
 **Metrics, Duplication, Churn, Style – koniec XX wieku.**
 
@@ -127,7 +127,9 @@ Andy Hunt and Dave Thomas’s
 * Our rules?
 
 
-### 8–12. Wyszukujemy i naprawiamy _problemy w kodzie_
+### 8–12. Code Treatment
+
+Wyszukujemy i naprawiamy _problemy w kodzie_.
 
 **Code smells, refactorings – początek XXI wieku, Kent Beck.**
 
