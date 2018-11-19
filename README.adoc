@@ -124,7 +124,9 @@ Andy Hunt and Dave Thomas’s
 . https://pl.wikipedia.org/wiki/Prawo_Demeter[LoD (the Law of Demeter)] –
   the Demeter project at Northeastern University
 
-* Our rules?
+. Our rules?
+.. Replace Conditional with Polymorphism
+.. https://stackoverflow.com/questions/1337565/avoiding-if-statements[Avoiding If Statements]
 
 
 ### 8–12. Code Treatment
