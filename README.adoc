@@ -105,10 +105,14 @@ No rules KATA.
 
 Rules.
 
-. https://www.youtube.com/watch?v=npOGOmkxuio[Baruco 2013: Rules, by Sandi Metz]. No more than
+. Sandi Metz.
+  https://www.youtube.com/watch?v=npOGOmkxuio[Rules], Baruco 2013. No more than
 .. 100 lines per class
 .. 5 lines per method
 .. 3 parameters per method
+
+. Corey Haines.
+  http://www.r-5.org/files/books/computers/languages/ruby/main/Corey_Haines-The_Four_Rules_of_Simple_Design-EN.pdf[Understanding the 4 Rules of Simple Design]
 
 . https://pl.wikipedia.org/wiki/SOLID_(programowanie_obiektowe)[SOLID] –
   coined by Michael Feathers and popularized by Robert Martin:
@@ -159,6 +163,12 @@ Na ile linijek kodu, średnio, wypada jeden zapach.
 
 
 ### Wykłady 13, 14, 15 – prezentacje projektów
+
+Lista prezentacji.
+
+.  8.01.2019, godz. 12.15–13.45, a. 2.
+. 16.01.2019, godz. 12.15–13.45, a. 2.
+. 22.01.2019, godz. 12.15–13.45, a. 2.
 
 
 ## Zapoznajemy się z cyklem TDD
