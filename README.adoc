@@ -97,40 +97,48 @@ of colored, line-through formatting.
 
 ### 5–7. Following Rules
 
-No rules KATA.
+#### No rules KATA.
 
 * https://github.com/emilybache/GildedRose-Refactoring-Kata[Gilded Rose Refactoring Kata]
 ** http://iamnotmyself.com/2011/02/13/refactor-this-the-gilded-rose-kata/[Refactor This: The Gilded Rose Kata]
 ** https://bettercodehub.com[https://bettercodehub.com]
 
-Rules.
+#### Sample rules to follow.
 
-. Sandi Metz.
-  https://www.youtube.com/watch?v=npOGOmkxuio[Rules], Baruco 2013. No more than
-.. 100 lines per class
-.. 5 lines per method
-.. 3 parameters per method
+Sandi Metz.
+  https://www.youtube.com/watch?v=npOGOmkxuio[Rules], Baruco 2013. No more than:
 
-. Corey Haines.
-  http://www.r-5.org/files/books/computers/languages/ruby/main/Corey_Haines-The_Four_Rules_of_Simple_Design-EN.pdf[Understanding the 4 Rules of Simple Design]
+. 100 lines per class
+. 5 lines per method
+. 3 parameters per method
 
-. https://pl.wikipedia.org/wiki/SOLID_(programowanie_obiektowe)[SOLID] –
+Corey Haines.
+  http://www.r-5.org/files/books/computers/languages/ruby/main/Corey_Haines-The_Four_Rules_of_Simple_Design-EN.pdf[Understanding the 4 Rules of Simple Design]:
+
+. Tests Pass
+. Expresses Intent
+. No Duplication (DRY)
+. Small
+
+https://pl.wikipedia.org/wiki/SOLID_(programowanie_obiektowe)[SOLID] –
   coined by Michael Feathers and popularized by Robert Martin:
-.. _**S**ingle Responsibility_,
-.. _**O**pen-Closed_,
-.. _**L**iskov Substitution_,
-.. _**I**nterface Segregation_,
-.. _**D**ependency Inversion_.
 
-. https://en.wikipedia.org/wiki/Don%27t_repeat_yourself[DRY (Don’t Repeat Yourself)] –
-Andy Hunt and Dave Thomas’s
+. _**S**ingle Responsibility_,
+. _**O**pen-Closed_,
+. _**L**iskov Substitution_,
+. _**I**nterface Segregation_,
+. _**D**ependency Inversion_.
 
-. https://pl.wikipedia.org/wiki/Prawo_Demeter[LoD (the Law of Demeter)] –
+Andy Hunt, Dave Thomas.
+https://en.wikipedia.org/wiki/Don%27t_repeat_yourself[DRY (Don’t Repeat Yourself)] –
+
+https://pl.wikipedia.org/wiki/Prawo_Demeter[LoD (the Law of Demeter)],
   the Demeter project at Northeastern University
 
-. Our rules?
-.. Replace Conditional with Polymorphism
-.. https://stackoverflow.com/questions/1337565/avoiding-if-statements[Avoiding If Statements]
+Our rules?
+
+. Replace Conditional with Polymorphism
+. https://stackoverflow.com/questions/1337565/avoiding-if-statements[Avoiding If Statements]
 
 
 ### 8–12. Code Treatment
