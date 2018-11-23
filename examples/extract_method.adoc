@@ -225,7 +225,7 @@ def calculate_outstanding
   outstanding
 end
 ```
-<1> link:replace_loop_with_collection_closure_method.adoc[Replace Loop with Collection Closure Method]
+<1> use refactoring Replace Loop with Collection Closure Method
 
 .Step 9
 ```ruby
