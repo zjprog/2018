@@ -219,13 +219,13 @@ end
 
 def calculate_outstanding
   outstanding = 0.0
-  @orders.each do |order| # <4>
+  @orders.each do |order| # <1>
     outstanding += order.amount
   end
   outstanding
 end
 ```
-<4> link:replace_loop_with_collection_closure_method.adoc[Replace Loop with Collection Closure Method]
+<1> link:replace_loop_with_collection_closure_method.adoc[Replace Loop with Collection Closure Method]
 
 .Step 9
 ```ruby
