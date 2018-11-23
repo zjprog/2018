@@ -25,7 +25,7 @@ temporary variables with Replace Temp with Query.
 from the extracted code.
 . Replace the extracted code in the source method with a call to the target method.
 
-## 3in1
+## Example: 3in1
 
 Initialize instance variables.
 
