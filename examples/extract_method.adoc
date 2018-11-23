@@ -264,3 +264,30 @@ def calculate_outstanding
   @orders.inject(0.0) { |result, order| result + order.amount }
 end
 ```
+
+## Comment on Flog results
+
+Before.
+
+```sh
+$ flog -a extract_method/before.rb
+     8.7: flog total
+     8.7: flog/method average
+
+     8.7: main#print_owing                 before.rb:1-13
+```
+
+After.
+
+```sh
+$ flog -a extract_method/after.rb
+    13.9: flog total
+     3.5: flog/method average
+
+     4.9: main#calculate_outstanding       after.rb:18-19
+     3.5: main#print_owing                 after.rb:1-4
+     3.3: main#print_banner                after.rb:7-10
+     2.2: main#print_details               after.rb:13-15
+```
+
+## Czy jest jakiś postęp?
