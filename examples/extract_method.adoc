@@ -5,7 +5,9 @@
 :experimental:
 :toc!:
 
-## How to Refactor (Ruby Edition)
+## Motivation
+
+## Mechanics
 
 . Create a new method, and name it after the intention of the method.
 . Copy the extracted code from the source method into the new target method.
