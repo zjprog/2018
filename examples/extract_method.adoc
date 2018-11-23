@@ -5,8 +5,6 @@
 :experimental:
 :toc!:
 
-## Why & Benfits
-
 ## How to Refactor (Ruby Edition)
 
 . Create a new method, and name it after the intention of the method.
