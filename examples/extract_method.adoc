@@ -1,0 +1,266 @@
+# Extract Method
+:source-highlighter: pygments
+:pygments-style: pastie
+:icons: font
+:experimental:
+:toc!:
+
+## Why & Benfits
+
+## How to Refactor (Ruby Edition)
+
+. Create a new method, and name it after the intention of the method.
+. Copy the extracted code from the source method into the new target method.
+. Scan the extracted code for references to any variables that are local in
+scope to the source method. These are local variables and parameters to the
+method.
+. See whether any temporary variables are used only within this extracted code.
+If so, declare them in the target method as temporary variables.
+. Look to see whether any of these local-scope variables are modified by the
+extracted code. If one variable is modified, see whether you can treat the
+extracted code as a query and assign the result to the variable concerned.
+You may need to use Split Temporary Variable and try again. You can eliminate
+temporary variables with Replace Temp with Query.
+. Pass into the target method as parameters local-scope variables that are read
+from the extracted code.
+. Replace the extracted code in the source method with a call to the target method.
+
+## 3 Examples
+
+Initialize instance variables.
+
+```ruby
+@name = 'Wlodek'
+Order = Struct.new(:amount)
+@orders = []
+@orders << Order.new(10.0) << Order.new(15.0)
+```
+
+```ruby
+def print_owing
+  outstanding = 0.0
+  # print banner # <1>
+  puts "*************************"
+  puts "***** Customer Owes *****"
+  puts "*************************"
+  # calculate outstanding # <3>
+  @orders.each do |order|
+    outstanding += order.amount
+  end
+  # print details # <2>
+  puts "name: #{@name}"
+  puts "amount: #{outstanding}"
+end
+```
+<1> No local variable
+<2> With local variable
+<3> Reassigning a local variable
+
+Execute method.
+
+```ruby
+print_owing
+```
+
+## Example 1 – No local variable
+
+.Step 1 – add `print_banner` method
+```ruby
+def print_owing
+  outstanding = 0.0
+  # print banner
+  puts "*************************"
+  puts "***** Customer Owes *****"
+  puts "*************************"
+  # calculate outstanding
+  @orders.each do |order|
+    outstanding += order.amount
+  end
+  # print details
+  puts "name: #{@name}"
+  puts "amount: #{outstanding}"
+end
+
+def print_banner
+  puts "*************************"
+  puts "***** Customer Owes *****"
+  puts "*************************"
+end
+```
+
+.Step 2 – execute `print_banner`
+```ruby
+def print_owing
+  outstanding = 0.0
+  print_banner
+  # calculate outstanding
+  @orders.each do |order|
+    outstanding += order.amount
+  end
+  # print details
+  puts "name: #{@name}"
+  puts "amount: #{outstanding}"
+end
+
+def print_banner
+  puts "*************************"
+  puts "***** Customer Owes *****"
+  puts "*************************"
+end
+```
+
+
+## Example 2 – With local variable
+
+.Step 3
+```ruby
+def print_owing
+  outstanding = 0.0
+  print_banner
+  # calculate outstanding
+  @orders.each do |order|
+    outstanding += order.amount
+  end
+  # print details
+  puts "name: #{@name}"
+  puts "amount: #{outstanding}"
+end
+
+def print_details(amount)
+end
+```
+
+.Step 4
+```ruby
+def print_owing
+  outstanding = 0.0
+  print_banner
+  # calculate outstanding
+  @orders.each do |order|
+    outstanding += order.amount
+  end
+  puts "name: #{@name}"
+  puts "amount: #{outstanding}"
+end
+
+def print_details(amount)
+  puts "name: #{@name}"
+  puts "amount: #{amount}"
+end
+```
+
+.Step 5
+```ruby
+def print_owing
+  outstanding = 0.0
+  print_banner
+  # calculate outstanding
+  @orders.each do |order|
+    outstanding += order.amount
+  end
+  print_details(outstanding)
+end
+
+def print_details(amount)
+  puts "name: #{@name}"
+  puts "amount: #{amount}"
+end
+```
+
+
+## Example 3 – Reassigning a local variable
+
+.Step 6
+```ruby
+def print_owing
+  outstanding = 0.0
+  print_banner
+  # calculate outstanding
+  @orders.each do |order|
+    outstanding += order.amount
+  end
+  print_details(outstanding)
+end
+
+def calculate_outstanding
+end
+```
+
+.Step 7
+```ruby
+def print_owing
+  print_banner
+  # calculate outstanding
+  outstanding = 0.0
+  @orders.each do |order|
+    outstanding += order.amount
+  end
+  print_details(outstanding)
+end
+
+def calculate_outstanding
+  outstanding = 0.0
+  @orders.each do |order|
+    outstanding += order.amount
+  end
+  outstanding
+end
+```
+
+## Example Extra – Replace Loop with Collection Closure Method
+
+.Step 8
+```ruby
+def print_owing
+  print_banner
+  outstanding = calculate_outstanding
+  print_details(outstanding)
+end
+
+def calculate_outstanding
+  outstanding = 0.0
+  @orders.each do |order| # <4>
+    outstanding += order.amount
+  end
+  outstanding
+end
+```
+<4> link:replace_loop_with_collection_closure_method.adoc[Replace Loop with Collection Closure Method]
+
+.Step 9
+```ruby
+def print_owing
+  print_banner
+  outstanding = calculate_outstanding
+  print_details(outstanding)
+end
+
+def calculate_outstanding
+  @orders.inject(0.0) { |result, order| result + order.amount }
+end
+```
+
+## Kod po refaktoryzacji
+
+```ruby
+def print_owing
+  print_banner
+  outstanding = calculate_outstanding
+  print_details(outstanding)
+end
+
+def print_banner
+  puts "*************************"
+  puts "***** Customer Owes *****"
+  puts "*************************"
+end
+
+def print_details(amount)
+  puts "name: #{@name}"
+  puts "amount: #{amount}"
+end
+
+def calculate_outstanding
+  @orders.inject(0.0) { |result, order| result + order.amount }
+end
+```
