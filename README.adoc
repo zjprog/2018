@@ -145,6 +145,11 @@ Our rules?
 
 ### 8–12. Code Treatment
 
+[quote, John Searle (philosopher)]
+____
+People will do almost anything rather than think.
+____
+
 Wyszukujemy i naprawiamy _problemy w kodzie_.
 
 **Code smells, refactorings – początek XXI wieku, Kent Beck.**
