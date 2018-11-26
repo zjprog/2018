@@ -150,6 +150,8 @@ ____
 People will do almost anything rather than think.
 ____
 
+(nbsp) +
+
 Wyszukujemy i naprawiamy _problemy w kodzie_.
 
 **Code smells, refactorings – początek XXI wieku, Kent Beck.**
