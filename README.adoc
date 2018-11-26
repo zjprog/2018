@@ -150,7 +150,7 @@ ____
 People will do almost anything rather than think.
 ____
 
-(nbsp) +
+{nbsp} +
 
 Wyszukujemy i naprawiamy _problemy w kodzie_.
 
