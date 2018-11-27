@@ -150,6 +150,8 @@ ____
 People will do almost anything rather than think.
 ____
 
+{nbsp} +
+
 Wyszukujemy i naprawiamy _problemy w kodzie_.
 
 **Code smells, refactorings – początek XXI wieku, Kent Beck.**
@@ -177,13 +179,19 @@ Znaleźć trzy najczęściej występujące oficjalne zapachy w jakimś większym
 Na ile linijek kodu, średnio, wypada jeden zapach.
 
 
-### Wykłady 13, 14, 15 – prezentacje projektów
+### Wykłady – prezentacje projektów na egzamin
 
-Lista prezentacji.
+Lista prezentacji, **stacjonarne**:
 
 .  8.01.2019, godz. 12.15–13.45, a. 2.
 . 16.01.2019, godz. 12.15–13.45, a. 2.
 . 22.01.2019, godz. 12.15–13.45, a. 2.
+
+Lista prezentacji, **niestacjonarne**:
+
+. 12.01.2019, godz. 13.50–15.20, a. 2.
+. 19.01.2019, godz. 13.50–15.20, a. 2.
+. 26.01.2019, godz. 13.50–15.20, a. 2.
 
 
 ## Zapoznajemy się z cyklem TDD
