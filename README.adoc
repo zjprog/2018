@@ -186,6 +186,7 @@ Lista prezentacji, **stacjonarne**:
 .  8.01.2019, godz. 12.15–13.45, a. 2.
 . 16.01.2019, godz. 12.15–13.45, a. 2.
 . 22.01.2019, godz. 12.15–13.45, a. 2.
+.. RT (Python)
 
 Lista prezentacji, **niestacjonarne**:
 
