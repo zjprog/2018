@@ -193,6 +193,15 @@ Lista prezentacji, **niestacjonarne**:
 . 19.01.2019, godz. 13.50–15.20, a. 2.
 . 26.01.2019, godz. 13.50–15.20, a. 2.
 
+{nbsp} +
+
+Przykładowe refaktoryzacje:
+
+* Katrina Owen.
+https://www.youtube.com/watch?v=J4dlF0kcThQ[Therapeutic Refactoring].
+* Sam Livingston-Gray.
+https://www.rubytapas.com/2016/12/05/refactoring-ruby-dry-domain-models-struct-table/[DRY up your domain models using a struct table].
+
 
 ## Zapoznajemy się z cyklem TDD
 
