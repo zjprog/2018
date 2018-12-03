@@ -137,6 +137,13 @@ https://en.wikipedia.org/wiki/Don%27t_repeat_yourself[DRY (Don’t Repeat Yourse
 https://pl.wikipedia.org/wiki/Prawo_Demeter[LoD (the Law of Demeter)],
   the Demeter project at Northeastern University
 
+Refactoring rules by S. Metz:
+
+. Make one change on just one line.
+. Run the tests.
+. If they fail, undo the change.
+. Try again with another change to just one line of the code.
+
 Our rules?
 
 . Replace Conditional with Polymorphism
