@@ -206,7 +206,9 @@ Lista prezentacji, **niestacjonarne**:
 . 19.01.2019, godz. 13.50–15.20, a. 2.
 .. AMD.GIT (JavaScript)
 .. Last Minute na drugi semestr (C#)
+.. A Restructor (C#)
 . 26.01.2019, godz. 13.50–15.20, a. 2.
+
 
 {nbsp} +
 
