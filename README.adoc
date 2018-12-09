@@ -203,11 +203,13 @@ Lista prezentacji, **niestacjonarne**:
 .. Sto Twarzy Grzybiarzy (C#)
 .. Markub (JavaScript)
 .. GRose (JavaScript)
+.. PyCharmers (Python)
 . 19.01.2019, godz. 13.50–15.20, a. 2.
 .. AMD.GIT (JavaScript)
 .. Last Minute na drugi semestr (C#)
 .. A Restructor (C#)
 .. Nie patrzę merdżuję (Python)
+.. Grupa WesołyWąż (Python)
 . 26.01.2019, godz. 13.50–15.20, a. 2.
 .. Lemury (Python)
 .. J Refaktoryzator (JavaScript)
