@@ -201,6 +201,7 @@ Lista prezentacji, **niestacjonarne**:
 
 . 12.01.2019, godz. 13.50–15.20, a. 2.
 . 19.01.2019, godz. 13.50–15.20, a. 2.
+.. AMD.GIT (JavaScript)
 . 26.01.2019, godz. 13.50–15.20, a. 2.
 
 {nbsp} +
