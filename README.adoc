@@ -207,7 +207,9 @@ Lista prezentacji, **niestacjonarne**:
 .. AMD.GIT (JavaScript)
 .. Last Minute na drugi semestr (C#)
 .. A Restructor (C#)
+.. Nie patrzę merdżuję (Python)
 . 26.01.2019, godz. 13.50–15.20, a. 2.
+.. Lemury (Python)
 
 
 {nbsp} +
