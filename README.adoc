@@ -213,7 +213,9 @@ Lista prezentacji, **niestacjonarne**:
 .. Nie patrzę merdżuję (Python)
 .. Grupa WesołyWąż (Python)
 .. Ogórki Zdzisława (PHP)
+.. Cebula Warriors (Ruby)
 .. Pelikany (C#)
+
 . 26.01.2019, godz. 13.50–15.20, a. 2.
 .. Lemury (Python)
 .. J Refaktoryzator (JavaScript)
@@ -221,7 +223,6 @@ Lista prezentacji, **niestacjonarne**:
 .. Kulkulken (Python)
 .. Shiroi Pantsu (C#)
 .. SeqFault Company (PHP)
-.. Cebula Warriers (Ruby)
 
 {nbsp} +
 
