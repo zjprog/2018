@@ -205,6 +205,7 @@ Lista prezentacji, **niestacjonarne**:
 .. GRose (JavaScript)
 .. PyCharmers (Python)
 .. Undefined (JavaScript)
+.. None (Python)
 . 19.01.2019, godz. 13.50–15.20, a. 2.
 .. AMD.GIT (JavaScript)
 .. Last Minute na drugi semestr (C#)
@@ -217,6 +218,7 @@ Lista prezentacji, **niestacjonarne**:
 .. J Refaktoryzator (JavaScript)
 .. KMLP (JavaScript)
 .. Kulkulken (Python)
+.. Shiroi Pantsu (C#)
 
 {nbsp} +
 
