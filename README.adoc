@@ -42,7 +42,7 @@ ability to string thoughts into logical order can produce working applications.
 **Programmers who know nothing about object-oriented design can be very successful in Ruby.**
 
 
-### Egzamin – prezentacje projektów
+## Egzamin – prezentacje projektów
 
 **Na każdą prezentację przeznaczone jest co najwyżej 15 min.**
 
