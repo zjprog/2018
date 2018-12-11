@@ -50,7 +50,8 @@ W trakcie prezentacji należy omówić refaktoryzację przykładowego
 kodu. Można się wzorować na wykładzie Katriny Owen,
 https://www.youtube.com/watch?v=J4dlF0kcThQ[Therapeutic Refactoring].
 
-Pzykładowe https://github.com/zjprog/2018/blob/master/rules.adoc[Design Rules].
+* Przykładowe https://github.com/zjprog/2018/blob/master/rules.adoc[Design Rules].
+* Oficjalna lista https://refactoring.com/catalog/[refaktoryzacji].
 
 
 ### Lista prezentacji, **stacjonarne**
