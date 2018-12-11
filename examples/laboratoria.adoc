@@ -1,0 +1,98 @@
+## Laboratoria
+
+### 1–4. Measuring Code Quality – WTF, ABC Complexity
+
+**Metrics, Duplication, Churn, Style – koniec XX wieku.**
+
+. https://github.com/AlDanial/cloc[Cloc] (counts).
+. http://ruby.sadi.st/Flog.html[Flog] (ABC complexity).
+. http://ruby.sadi.st/Flay.html[Flay] (structural similarities).
+. https://github.com/chad/turbulence[Turbulence] (churn&complexity).
+. https://docs.rubocop.org/en/latest/[RuboCop] – static code analyzer (a.k.a. linter) and code formatter (style).
+
+Zob. też https://www.sandimetz.com/blog/2017/9/13/breaking-up-the-behemoth[Breaking Up the Behemoth] –
+Design Stamina Hypothesis, Procedural vs Object-Oriented Code, Churn and Complexity.
+
+#### ABC of discovering a pain in the code
+
+Do wyszukiwania _pain in Ruby code_ użyjemy narzędzia
+https://github.com/seattlerb/flog[Flog] – the higher the
+score, the more pain the code is in; zob. też Bryan Helmkamp,
+https://codeclimate.com/blog/deciphering-ruby-code-metrics/[Deciphering Ruby Code Metrics]
+
+.verse.rb
+```ruby
+def verse(n)
+  "#{n == 0 ? 'No more' : n} bottle#{'s' if n != 1}" +
+  " of beer on the wall, " +
+  "#{n == 0 ? 'no more' : n} bottle#{'s' if n != 1} of beer.\n" +
+  "#{n > 0  ? "Take #{n > 1 ? 'one' : 'it'} down and pass it around"
+            : "Go to the store and buy some more"}, " +
+  "#{n-1 < 0 ? 99 : n-1 == 0 ? 'no more' : n-1} bottle#{'s' if n-1 != 1}"+
+  " of beer on the wall.\n"
+end
+```
+
+```sh
+flog -ad verse.rb # --all --details
+    36.2: flog total
+    36.2: flog/method average
+
+    36.2: main#verse                       verse.rb:1-8
+    15.2:   branch
+     7.0:   +
+     6.5:   -
+     5.3:   ==
+     5.2:   !=
+     4.1:   lit_fixnum
+     3.3:   >
+     1.4:   <
+```
+
+See http://www.methods.co.nz/asciidoc/chunked/ch10.html[Chapter 10. Text Formatting] for examples
+of colored, line-through formatting.
+
+
+### 5–7. Following Rules
+
+#### No rules KATA.
+
+* https://github.com/emilybache/GildedRose-Refactoring-Kata[Gilded Rose Refactoring Kata]
+** http://iamnotmyself.com/2011/02/13/refactor-this-the-gilded-rose-kata/[Refactor This: The Gilded Rose Kata]
+** https://bettercodehub.com[https://bettercodehub.com]
+
+
+### 8–12. Code Treatment
+
+[quote, John Searle (philosopher)]
+____
+People will do almost anything rather than think.
+____
+
+{nbsp} +
+
+Wyszukujemy i naprawiamy _problemy w kodzie_.
+
+**Code smells, refactorings – początek XXI wieku, Kent Beck.**
+
+Uruchomić https://github.com/whitesmith/rubycritic[RubyCritics] – a Ruby code quality reporter –
+na większym projekcie napisanym w języku Ruby.
+
+#### Code smell of the week
+
+Programu **reek** można użyć do wypisania „zapachów” w projekcie napisanym w języku Ruby:
+
+```sh
+reek -f json KATALOG | jq .[].documentation_link | sort | uniq -c | sort -n
+```
+Jeśli katalog zawiera nie tylko pliki z kodem w języku Ruby, to modyfikujemy nieco to polecenie,
+na przykład tak:
+```sh
+find lib -name '*.rb' | xargs reek -f json  | jq .[].documentation_link | sort | uniq -c | sort -n
+```
+
+Tutaj jest **link:refactorings.adoc[oficjalna lista code smells i refaktoryzacji]**
+dla języka Ruby i Java.
+Znaleźć trzy najczęściej występujące oficjalne zapachy w jakimś większym projekcie Ruby.
+
+Na ile linijek kodu, średnio, wypada jeden zapach.
