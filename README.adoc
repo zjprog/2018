@@ -42,27 +42,31 @@ ability to string thoughts into logical order can produce working applications.
 **Programmers who know nothing about object-oriented design can be very successful in Ruby.**
 
 
-### Wykłady – prezentacje projektów na egzamin
+### Egzamin – prezentacje projektów
 
-Na każdą prezentację przeznaczone jest co najwyżej 15 min.
+**Na każdą prezentację przeznaczone jest co najwyżej 15 min.**
 
 W trakcie prezentacji należy omówić refaktoryzację przykładowego
 kodu. Można się wzorować na wykładzie Katriny Owen,
 https://www.youtube.com/watch?v=J4dlF0kcThQ[Therapeutic Refactoring].
 
-Pzykładowe [Design Rules].
+Pzykładowe https://github.com/zjprog/2018/blob/master/rules.adoc[Design Rules].
 
-Lista prezentacji, **stacjonarne**:
+
+### Lista prezentacji, **stacjonarne**
 
 .  8.01.2019, godz. 12.15–13.45, a. 2.
 .. M.M. & M.P. (Java)
 .. Dobra Grupa (C#)
+
 . 16.01.2019, godz. 12.15–13.45, a. 2.
 .. One Direction (Java)
+
 . 22.01.2019, godz. 12.15–13.45, a. 2.
 .. RT (Python)
 
-Lista prezentacji, **niestacjonarne**:
+
+### Lista prezentacji, **niestacjonarne**
 
 . 12.01.2019, godz. 13.50–15.20, a. 2.
 .. Sto Twarzy Grzybiarzy (C#)
@@ -71,6 +75,7 @@ Lista prezentacji, **niestacjonarne**:
 .. PyCharmers (Python)
 .. Undefined (JavaScript)
 .. None (Python)
+
 . 19.01.2019, godz. 13.50–15.20, a. 2.
 .. AMD.GIT (JavaScript)
 .. Last Minute na drugi semestr (C#)
