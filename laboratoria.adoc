@@ -96,3 +96,18 @@ dla języka Ruby i Java.
 Znaleźć trzy najczęściej występujące oficjalne zapachy w jakimś większym projekcie Ruby.
 
 Na ile linijek kodu, średnio, wypada jeden zapach.
+
+
+{nbsp} +
+
+Przykładowe refaktoryzacje:
+
+* Sam Livingston-Gray.
+https://www.rubytapas.com/2016/12/05/refactoring-ruby-dry-domain-models-struct-table/[DRY up your domain models using a struct table].
+
+
+## Zapoznajemy się z cyklem TDD
+
+Zakładamy konto na portalu https://exercism.io[Exercism].
+Następnie wybieramy **tracks** z językiem obiektowym i przerabiamy
+ćwiczenia (10+).

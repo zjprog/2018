@@ -37,7 +37,7 @@ Refactoring rules by S. Metz:
 . If they fail, undo the change.
 . Try again with another change to just one line of the code.
 
-Our rules?
+Our rules.
 
 . Replace Conditional with Polymorphism
 . https://stackoverflow.com/questions/1337565/avoiding-if-statements[Avoiding If Statements]
