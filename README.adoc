@@ -59,12 +59,22 @@ https://www.youtube.com/watch?v=J4dlF0kcThQ[Therapeutic Refactoring].
 .  8.01.2019, godz. 12.15–13.45, a. 2.
 .. M.M. & M.P. (Java)
 .. Dobra Grupa (C#)
+.. DropDatabase (Ruby)
+.. Warcaby (Java)
+.. Ich Troje (Ruby)
 
 . 16.01.2019, godz. 12.15–13.45, a. 2.
 .. One Direction (Java)
+.. Optimize Prime (Ruby)
+.. BKK (Ruby)
+.. BKK (Ruby)
+.. Grupa Trzecia (Java)
 
 . 22.01.2019, godz. 12.15–13.45, a. 2.
 .. RT (Python)
+.. PiTi Team (Ruby)
+.. Piesek w Koszyczku (Ruby)
+.. AA (Ruby)
 
 
 ### Lista prezentacji, **niestacjonarne**
