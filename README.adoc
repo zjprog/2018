@@ -77,6 +77,8 @@ https://www.youtube.com/watch?v=J4dlF0kcThQ[Therapeutic Refactoring].
 .. PiTi Team (Ruby)
 .. Piesek w Koszyczku (Ruby)
 .. AA (Ruby)
+.. Grupa 4.1 (Ruby)
+.. Grupa 4.2 (Ruby)
 
 
 ### Lista prezentacji, **niestacjonarne**
