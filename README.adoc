@@ -106,3 +106,4 @@ https://www.youtube.com/watch?v=J4dlF0kcThQ[Therapeutic Refactoring].
 .. Kulkulken (Python)
 .. Shiroi Pantsu (C#)
 .. SeqFault Company (PHP)
+.. StackOverflow (Java)
