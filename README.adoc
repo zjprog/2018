@@ -67,7 +67,6 @@ https://www.youtube.com/watch?v=J4dlF0kcThQ[Therapeutic Refactoring].
 .. One Direction (Java)
 .. Optimize Prime (Ruby)
 .. BKK (Ruby)
-.. BKK (Ruby)
 .. Grupa Trzecia (Java)
 .. Karo (Ruby)
 
