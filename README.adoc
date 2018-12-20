@@ -62,7 +62,6 @@ https://www.youtube.com/watch?v=J4dlF0kcThQ[Therapeutic Refactoring].
 .. Drop Database (Ruby)
 .. Warcaby (Java)
 .. Ich Troje (Ruby)
-.. Optimize Prime (Ruby)
 
 . 16.01.2019, godz. 12.15–13.45, a. 2.
 .. One Direction (Java)
