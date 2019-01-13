@@ -69,6 +69,7 @@ https://www.youtube.com/watch?v=J4dlF0kcThQ[Therapeutic Refactoring].
 .. BKK (Ruby)
 .. Grupa Trzecia (Java)
 .. Karo (Ruby)
+.. TeamRuby (Ruby)
 
 . 22.01.2019, godz. 12.15–13.45, a. 2.
 .. RT (Python)
