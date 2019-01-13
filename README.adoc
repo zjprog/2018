@@ -63,7 +63,7 @@ https://www.youtube.com/watch?v=J4dlF0kcThQ[Therapeutic Refactoring].
 .. Warcaby (Java)
 .. Ich Troje (Ruby)
 
-. 16.01.2019, godz. 12.15–13.45, a. 2.
+. 15.01.2019, godz. 12.15–13.45, a. 2.
 .. One Direction (Java)
 .. Optimize Prime (Ruby)
 .. BKK (Ruby)
