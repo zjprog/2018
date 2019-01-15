@@ -64,11 +64,10 @@ https://www.youtube.com/watch?v=J4dlF0kcThQ[Therapeutic Refactoring].
 .. Ich Troje (Ruby)
 
 . 15.01.2019, godz. 12.15–13.45, a. 2.
-.. One Direction (Java)
+.. One Direction (Java) // PDF z wyjaśnieniami do wyników przed i po refaktorzacji
 .. Optimize Prime (Ruby)
 .. BKK (Ruby)
 .. Grupa Trzecia (Java)
-.. TeamRuby (Ruby)
 
 . 22.01.2019, godz. 12.15–13.45, a. 2.
 .. RT (Python)
@@ -77,6 +76,7 @@ https://www.youtube.com/watch?v=J4dlF0kcThQ[Therapeutic Refactoring].
 .. AA (Ruby)
 .. Grupa 4.1 (Ruby)
 .. Grupa 4.2 (Ruby)
+.. TeamRuby (Ruby)
 
 
 ### Lista prezentacji, **niestacjonarne**
