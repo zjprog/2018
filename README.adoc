@@ -65,8 +65,8 @@ https://www.youtube.com/watch?v=J4dlF0kcThQ[Therapeutic Refactoring].
 
 . 15.01.2019, godz. 12.15–13.45, a. 2.
 .. One Direction (Java) // PDF z wyjaśnieniami do wyników przed i po refaktorzacji
-.. Optimize Prime (Ruby)
-.. BKK (Ruby)
+.. https://github.com/Kurokokoro/OptimizePrime-Mrowisko[Optimize Prime (Ruby)]
+.. https://github.com/kucmeno/ZJP[BKK (Ruby)]
 .. Grupa Trzecia (Java)
 
 . 22.01.2019, godz. 12.15–13.45, a. 2.
