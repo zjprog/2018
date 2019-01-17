@@ -96,8 +96,8 @@ https://www.youtube.com/watch?v=J4dlF0kcThQ[Therapeutic Refactoring].
 .. Nie patrzę merdżuję (Python)
 .. Grupa WesołyWąż (Python)
 .. Ogórki Zdzisława (PHP)
-.. Cebula Warriors (Ruby)
 .. Pelikany (C#)
+.. Cebula Warriors (Ruby)
 
 . 26.01.2019, godz. 13.50–15.20, a. 2.
 .. Lemury (Python)
@@ -107,3 +107,4 @@ https://www.youtube.com/watch?v=J4dlF0kcThQ[Therapeutic Refactoring].
 .. Shiroi Pantsu (C#)
 .. SeqFault Company (PHP)
 .. StackOverflow (Java)
+.. Cebula Warriors (Ruby)
