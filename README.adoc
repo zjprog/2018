@@ -94,7 +94,6 @@ https://www.youtube.com/watch?v=J4dlF0kcThQ[Therapeutic Refactoring].
 .. Last Minute na drugi semestr (C#)
 .. A Restructor (C#)
 .. Nie patrzę merdżuję (Python)
-.. Grupa WesołyWąż (Python)
 .. Ogórki Zdzisława (PHP)
 .. Pelikany (C#)
 .. Cebula Warriors (Ruby)
@@ -108,3 +107,4 @@ https://www.youtube.com/watch?v=J4dlF0kcThQ[Therapeutic Refactoring].
 .. SeqFault Company (PHP)
 .. StackOverflow (Java)
 .. Cebula Warriors (Ruby)
+.. Grupa WesołyWąż (Python)
