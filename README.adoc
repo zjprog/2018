@@ -96,7 +96,6 @@ https://www.youtube.com/watch?v=J4dlF0kcThQ[Therapeutic Refactoring].
 .. Nie patrzę merdżuję (Python)
 .. Ogórki Zdzisława (PHP)
 .. Pelikany (C#)
-.. Cebula Warriors (Ruby)
 
 . 26.01.2019, godz. 13.50–15.20, a. 2.
 .. Lemury (Python)
