@@ -70,7 +70,6 @@ https://www.youtube.com/watch?v=J4dlF0kcThQ[Therapeutic Refactoring].
 
 . 22.01.2019, godz. 12.15–13.45, a. 2.
 .. Grupa Trzecia (Java)
-.. RT (Python)
 .. PiTi Team (Ruby)
 .. Piesek w Koszyczku (Ruby)
 .. AA (Ruby)
