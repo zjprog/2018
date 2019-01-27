@@ -42,160 +42,67 @@ ability to string thoughts into logical order can produce working applications.
 **Programmers who know nothing about object-oriented design can be very successful in Ruby.**
 
 
-## Laboratoria
+## Egzamin – prezentacje projektów
 
-### 1–4. Measuring Code Quality – WTF, ABC Complexity
+**Na każdą prezentację przeznaczone jest co najwyżej 15 min.**
 
-**Metrics, Duplication, Churn, Style – koniec XX wieku.**
+W trakcie prezentacji należy omówić refaktoryzację przykładowego
+kodu. Można się wzorować na wykładzie Katriny Owen,
+https://www.youtube.com/watch?v=J4dlF0kcThQ[Therapeutic Refactoring].
 
-. https://github.com/AlDanial/cloc[Cloc] (counts).
-. http://ruby.sadi.st/Flog.html[Flog] (ABC complexity).
-. http://ruby.sadi.st/Flay.html[Flay] (structural similarities).
-. https://github.com/chad/turbulence[Turbulence] (churn&complexity).
-. https://docs.rubocop.org/en/latest/[RuboCop] – static code analyzer (a.k.a. linter) and code formatter (style).
-
-Zob. też https://www.sandimetz.com/blog/2017/9/13/breaking-up-the-behemoth[Breaking Up the Behemoth] –
-Design Stamina Hypothesis, Procedural vs Object-Oriented Code, Churn and Complexity.
-
-#### ABC of discovering a pain in the code
-
-Do wyszukiwania _pain in Ruby code_ użyjemy narzędzia
-https://github.com/seattlerb/flog[Flog] – the higher the
-score, the more pain the code is in; zob. też Bryan Helmkamp,
-https://codeclimate.com/blog/deciphering-ruby-code-metrics/[Deciphering Ruby Code Metrics]
-
-.verse.rb
-```ruby
-def verse(n)
-  "#{n == 0 ? 'No more' : n} bottle#{'s' if n != 1}" +
-  " of beer on the wall, " +
-  "#{n == 0 ? 'no more' : n} bottle#{'s' if n != 1} of beer.\n" +
-  "#{n > 0  ? "Take #{n > 1 ? 'one' : 'it'} down and pass it around"
-            : "Go to the store and buy some more"}, " +
-  "#{n-1 < 0 ? 99 : n-1 == 0 ? 'no more' : n-1} bottle#{'s' if n-1 != 1}"+
-  " of beer on the wall.\n"
-end
-```
-
-```sh
-flog -ad verse.rb # --all --details
-    36.2: flog total
-    36.2: flog/method average
-
-    36.2: main#verse                       verse.rb:1-8
-    15.2:   branch
-     7.0:   +
-     6.5:   -
-     5.3:   ==
-     5.2:   !=
-     4.1:   lit_fixnum
-     3.3:   >
-     1.4:   <
-```
-
-See http://www.methods.co.nz/asciidoc/chunked/ch10.html[Chapter 10. Text Formatting] for examples
-of colored, line-through formatting.
+* Przykładowe https://github.com/zjprog/2018/blob/master/rules.adoc[Design Rules].
+* Oficjalna lista https://refactoring.com/catalog/[refaktoryzacji].
 
 
-### 5–7. Following Rules
-
-#### No rules KATA.
-
-* https://github.com/emilybache/GildedRose-Refactoring-Kata[Gilded Rose Refactoring Kata]
-** http://iamnotmyself.com/2011/02/13/refactor-this-the-gilded-rose-kata/[Refactor This: The Gilded Rose Kata]
-** https://bettercodehub.com[https://bettercodehub.com]
-
-#### Sample rules to follow.
-
-Sandi Metz.
-  https://www.youtube.com/watch?v=npOGOmkxuio[Rules], Baruco 2013. No more than:
-
-. 100 lines per class
-. 5 lines per method
-. 3 parameters per method
-
-Corey Haines.
-  http://www.r-5.org/files/books/computers/languages/ruby/main/Corey_Haines-The_Four_Rules_of_Simple_Design-EN.pdf[Understanding the 4 Rules of Simple Design]:
-
-. Tests Pass
-. Expresses Intent
-. No Duplication (DRY)
-. Small
-
-https://pl.wikipedia.org/wiki/SOLID_(programowanie_obiektowe)[SOLID] –
-  coined by Michael Feathers and popularized by Robert Martin:
-
-. _**S**ingle Responsibility_,
-. _**O**pen-Closed_,
-. _**L**iskov Substitution_,
-. _**I**nterface Segregation_,
-. _**D**ependency Inversion_.
-
-Andy Hunt, Dave Thomas.
-https://en.wikipedia.org/wiki/Don%27t_repeat_yourself[DRY (Don’t Repeat Yourself)] –
-
-https://pl.wikipedia.org/wiki/Prawo_Demeter[LoD (the Law of Demeter)],
-  the Demeter project at Northeastern University
-
-Our rules?
-
-. Replace Conditional with Polymorphism
-. https://stackoverflow.com/questions/1337565/avoiding-if-statements[Avoiding If Statements]
-
-
-### 8–12. Code Treatment
-
-[quote, John Searle (philosopher)]
-____
-People will do almost anything rather than think.
-____
-
-{nbsp} +
-
-Wyszukujemy i naprawiamy _problemy w kodzie_.
-
-**Code smells, refactorings – początek XXI wieku, Kent Beck.**
-
-Uruchomić https://github.com/whitesmith/rubycritic[RubyCritics] – a Ruby code quality reporter –
-na większym projekcie napisanym w języku Ruby.
-
-#### Code smell of the week
-
-Programu **reek** można użyć do wypisania „zapachów” w projekcie napisanym w języku Ruby:
-
-```sh
-reek -f json KATALOG | jq .[].documentation_link | sort | uniq -c | sort -n
-```
-Jeśli katalog zawiera nie tylko pliki z kodem w języku Ruby, to modyfikujemy nieco to polecenie,
-na przykład tak:
-```sh
-find lib -name '*.rb' | xargs reek -f json  | jq .[].documentation_link | sort | uniq -c | sort -n
-```
-
-Tutaj jest **link:refactorings.adoc[oficjalna lista code smells i refaktoryzacji]**
-dla języka Ruby i Java.
-Znaleźć trzy najczęściej występujące oficjalne zapachy w jakimś większym projekcie Ruby.
-
-Na ile linijek kodu, średnio, wypada jeden zapach.
-
-
-### Wykłady – prezentacje projektów na egzamin
-
-Lista prezentacji, **stacjonarne**:
+### Lista prezentacji, **stacjonarne**
 
 .  8.01.2019, godz. 12.15–13.45, a. 2.
-. 16.01.2019, godz. 12.15–13.45, a. 2.
-. 22.01.2019, godz. 12.15–13.45, a. 2.
+.. M.M. & M.P. (Java)
+.. Dobra Grupa (C#)
+.. Drop Database (Ruby)
+.. Warcaby (Java)
+.. Ich Troje (Ruby)
 
-Lista prezentacji, **niestacjonarne**:
+. 15.01.2019, godz. 12.15–13.45, a. 2.
+.. One Direction (Java) // PDF z wyjaśnieniami do wyników przed i po refaktorzacji
+.. https://github.com/Kurokokoro/OptimizePrime-Mrowisko[Optimize Prime (Ruby)]
+.. https://github.com/kucmeno/ZJP[BKK (Ruby)]
+
+. 22.01.2019, godz. 12.15–13.45, a. 2.
+.. Grupa Trzecia (Java)
+.. PiTi Team (Ruby)
+.. Piesek w Koszyczku (Ruby)
+.. AA (Ruby)
+.. Grupa 4.1 (Ruby)
+.. Grupa 4.2 (Ruby)
+.. TeamRuby (Ruby)
+
+
+### Lista prezentacji, **niestacjonarne**
 
 . 12.01.2019, godz. 13.50–15.20, a. 2.
+.. Sto Twarzy Grzybiarzy (C#)
+.. Markub (JavaScript)
+.. GRose (JavaScript)
+.. PyCharmers (Python)
+.. Undefined (JavaScript)
+.. None (Python)
+
 . 19.01.2019, godz. 13.50–15.20, a. 2.
+.. AMD.GIT (JavaScript)
+.. Last Minute na drugi semestr (C#)
+.. A Restructor (C#)
+.. Nie patrzę merdżuję (Python)
+.. Ogórki Zdzisława (PHP)
+.. Pelikany (C#)
+
 . 26.01.2019, godz. 13.50–15.20, a. 2.
-
-
-## Zapoznajemy się z cyklem TDD
-
-Zakładamy konto na portalu https://exercism.io[Exercism].
-Następnie wybieramy **tracks** z językiem obiektowym i przerabiamy
-ćwiczenia (10+).
+.. Lemury (Python)
+.. J Refaktoryzator (JavaScript)
+.. KMLP (JavaScript)
+.. Kulkulken (Python)
+.. Shiroi Pantsu (C#)
+.. SeqFault Company (PHP)
+.. StackOverflow (Java)
+.. Cebula Warriors (Ruby)
+.. Grupa WesołyWąż (Python)

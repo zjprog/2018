@@ -186,15 +186,11 @@ def calculate_outstanding
 end
 ```
 
-.Step 7
+.Step 7 & 8
 ```ruby
 def print_owing
   print_banner
-  # calculate outstanding
-  outstanding = 0.0
-  @orders.each do |order|
-    outstanding += order.amount
-  end
+  outstanding = calculate_outstanding
   print_details(outstanding)
 end
 
@@ -209,7 +205,7 @@ end
 
 ## Example Extra – Replace Loop with Collection Closure Method
 
-.Step 8
+.Step 9
 ```ruby
 def print_owing
   print_banner
@@ -227,7 +223,7 @@ end
 ```
 <1> use refactoring Replace Loop with Collection Closure Method
 
-.Step 9
+.Step 10
 ```ruby
 def print_owing
   print_banner
