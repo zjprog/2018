@@ -1,6 +1,4 @@
-## Przykładowe programy
-
-### Pomysły na projekty
+## Pomysły na projekty
 
 . https://mitchum.blog/how-to-build-minesweeper-with-javascript/[How To Build Minesweeper With JavaScript].
 
