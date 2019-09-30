@@ -1,7 +1,7 @@
 :figure-caption!:
 :tocs!:
 
-## 2.10.2018 🚀
+## Zaczynamy 3.10.2019 🚀
 
 [quote, Edsger W. Dijkstra, On the cruelty of really teaching computer science]
 ____
