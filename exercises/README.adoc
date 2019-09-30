@@ -1,5 +1,9 @@
 ## Przykładowe programy
 
+### Pomysły na projekty
+
+. https://mitchum.blog/how-to-build-minesweeper-with-javascript/[How To Build Minesweeper With JavaScript].
+
 . Kalkulator liczb rzeczywistych z operatorami: +-*/|&^!** log ();
 uruchomienie: calc.rb wyrazenie Tutaj całość jest prosta do momentu w którym
 trzeba zaimplementować nawiasy. Zwykle tłumaczę że wtedy trzeba zrobić sobie
