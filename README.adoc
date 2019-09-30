@@ -27,8 +27,6 @@ ____
 .Source https://r-stylelab.com/company/blog/web-development/from-tdd-to-bdd-when-to-switch-and-how-to-apply[From TDD to BDD: When to Switch and How to Apply]
 image::images/tdd-cycle.png[TDD Cycle, 575, 386]
 
-TODO: https://discourse.omnigroup.com/t/wrap-text-around-circle/29709[Wrap text around circle].
-
 
 ## Note about Ruby language from Sandi Metz
 
