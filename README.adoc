@@ -24,9 +24,12 @@ ____
 ** https://www.youtube.com/watch?v=mpA2F1In41w[Go Ahead, Make a Mess]; zob. też
   Joe Armstrong, one of the inventors of Erlang, https://www.youtube.com/watch?v=lKXe3HUG2l4[The Mess We're In].
 
+## https://github.com/egzamin/slides[*Slajdy do wykładu**]
+
+## TDD Loop/Cycle
+
 .Źródło: https://r-stylelab.com/company/blog/web-development/from-tdd-to-bdd-when-to-switch-and-how-to-apply[From TDD to BDD: When to Switch and How to Apply]
 image::images/tdd-cycle.png[TDD Cycle, 575, 386]
-
 
 ## Note about Ruby language from Sandi Metz
 
@@ -40,7 +43,7 @@ ability to string thoughts into logical order can produce working applications.
 **Programmers who know nothing about object-oriented design can be very successful in Ruby.**
 
 
-## Egzamin – prezentacje projektów
+## Egzamin – prezentacje projektów (TODO)
 
 **Na każdą prezentację przeznaczone jest co najwyżej 15 min.**
 
@@ -50,57 +53,3 @@ https://www.youtube.com/watch?v=J4dlF0kcThQ[Therapeutic Refactoring].
 
 * Przykładowe https://github.com/zjprog/2018/blob/master/rules.adoc[Design Rules].
 * Oficjalna lista https://refactoring.com/catalog/[refaktoryzacji].
-
-
-### Lista prezentacji, **stacjonarne**
-
-.  8.01.2019, godz. 12.15–13.45, a. 2.
-.. M.M. & M.P. (Java)
-.. Dobra Grupa (C#)
-.. Drop Database (Ruby)
-.. Warcaby (Java)
-.. Ich Troje (Ruby)
-
-. 15.01.2019, godz. 12.15–13.45, a. 2.
-.. One Direction (Java) // PDF z wyjaśnieniami do wyników przed i po refaktorzacji
-.. https://github.com/Kurokokoro/OptimizePrime-Mrowisko[Optimize Prime (Ruby)]
-.. https://github.com/kucmeno/ZJP[BKK (Ruby)]
-
-. 22.01.2019, godz. 12.15–13.45, a. 2.
-.. Grupa Trzecia (Java)
-.. PiTi Team (Ruby)
-.. Piesek w Koszyczku (Ruby)
-.. AA (Ruby)
-.. Grupa 4.1 (Ruby)
-.. Grupa 4.2 (Ruby)
-.. TeamRuby (Ruby)
-
-
-### Lista prezentacji, **niestacjonarne**
-
-. 12.01.2019, godz. 13.50–15.20, a. 2.
-.. Sto Twarzy Grzybiarzy (C#)
-.. Markub (JavaScript)
-.. GRose (JavaScript)
-.. PyCharmers (Python)
-.. Undefined (JavaScript)
-.. None (Python)
-
-. 19.01.2019, godz. 13.50–15.20, a. 2.
-.. AMD.GIT (JavaScript)
-.. Last Minute na drugi semestr (C#)
-.. A Restructor (C#)
-.. Nie patrzę merdżuję (Python)
-.. Ogórki Zdzisława (PHP)
-.. Pelikany (C#)
-
-. 26.01.2019, godz. 13.50–15.20, a. 2.
-.. Lemury (Python)
-.. J Refaktoryzator (JavaScript)
-.. KMLP (JavaScript)
-.. Kulkulken (Python)
-.. Shiroi Pantsu (C#)
-.. SeqFault Company (PHP)
-.. StackOverflow (Java)
-.. Cebula Warriors (Ruby)
-.. Grupa WesołyWąż (Python)
