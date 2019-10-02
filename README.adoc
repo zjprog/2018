@@ -18,12 +18,13 @@ ____
 * Na wykładzie wyjaśnimy dokładniej niektóre z opisanych powyżej
   [red]#**zaawansowanych**# rzeczy. Na przykład rozszyfrujemy skrótowiec SOLID,
   omówimy różne *refaktoryzacje* oraz zajmiemy się usuwaniem _code smells_:
-.. Martin Fowler, *Refactoring: Improving the Design of Existing Code*, 2018 (2nd edition)
 
 
 ## Literatura
 
-* https://www.sandimetz.com/products[Sandi Metz]:
+. Martin Fowler, *Refactoring: Improving the Design of Existing Code*, 2018 (2nd edition)
+
+. https://www.sandimetz.com/products[Sandi Metz]:
 ** https://www.youtube.com/watch?v=mpA2F1In41w[Go Ahead, Make a Mess]; zob. też
   Joe Armstrong, one of the inventors of Erlang, https://www.youtube.com/watch?v=lKXe3HUG2l4[The Mess We're In].
 
