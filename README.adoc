@@ -23,6 +23,7 @@ ____
 ## Literatura
 
 . Martin Fowler, *Refactoring: Improving the Design of Existing Code*, 2018 (2nd edition)
+** https://refactoring.com/[Refactoring]
 
 . https://www.sandimetz.com/products[Sandi Metz]:
 ** https://www.youtube.com/watch?v=mpA2F1In41w[Go Ahead, Make a Mess]; zob. też
