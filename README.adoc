@@ -18,8 +18,9 @@ ____
 * Na wykładzie wyjaśnimy dokładniej niektóre z opisanych powyżej
   [red]#**zaawansowanych**# rzeczy. Na przykład rozszyfrujemy skrótowiec SOLID,
   omówimy różne *refaktoryzacje* oraz zajmiemy się usuwaniem _code smells_:
-** https://refactoring.com/[Refactoring]
-** Martin Fowler, *Refactoring: Improving the Design of Existing Code*, 2018 (2nd edition)
+.. Martin Fowler, *Refactoring: Improving the Design of Existing Code*, 2018 (2nd edition)
+... https://refactoring.com/[Refactoring]
+.. https://www.sandimetz.com/products[Sandi Metz]
 
 * https://www.sandimetz.com/products[Literatura] – na początek wystarczą nam
   dwie książki Sandi Metz i jej prezentacja z YouTube:
