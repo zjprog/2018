@@ -26,9 +26,8 @@ ____
 ** https://refactoring.com/[Refactoring]
 
 . https://www.sandimetz.com/products[Sandi Metz]:
-** Go Ahead, Make a Mess https://www.youtube.com/watch?v=mpA2F1In41w[YouTube]; +
-  zob. też
-  Joe Armstrong (one of the inventors of Erlang) The Mess We're In (https://www.youtube.com/watch?v=lKXe3HUG2l4[YouTube].
+** Go Ahead, Make a Mess (https://www.youtube.com/watch?v=mpA2F1In41w[YouTube]) +
+  zob. też Joe Armstrong (one of the inventors of Erlang) The Mess We're In (https://www.youtube.com/watch?v=lKXe3HUG2l4[YouTube]).
 
 
 ## https://github.com/egzamin/slides[Slajdy do wykładu]
