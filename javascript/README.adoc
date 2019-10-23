@@ -1,4 +1,4 @@
-# Refactoring (JaavaScript) by Fowler
+# Refactoring (JavaScript) by Fowler
 
 http://www.99-bottles-of-beer.net/language-javascript-5.html[Trochę kodu na początek].
 
