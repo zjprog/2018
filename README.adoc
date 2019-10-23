@@ -19,6 +19,9 @@ ____
   [red]#**zaawansowanych**# rzeczy. Na przykład rozszyfrujemy skrótowiec SOLID,
   omówimy różne *refaktoryzacje* oraz zajmiemy się usuwaniem _code smells_:
 
+## Zaliczenie laboratorium
+
+* Gilded Rose – **13.11.2019**
 
 ## Literatura
 
