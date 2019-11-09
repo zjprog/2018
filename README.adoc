@@ -23,6 +23,7 @@ ____
 
 * Gilded Rose – **13.11.2019**
 
+
 ## Literatura
 
 . Martin Fowler, *Refactoring: Improving the Design of Existing Code*, 2018 (2nd edition)
@@ -32,10 +33,9 @@ ____
 ** Go Ahead, Make a Mess (https://www.youtube.com/watch?v=mpA2F1In41w[YouTube]) +
   zob. też Joe Armstrong (one of the inventors of Erlang) The Mess We're In (https://www.youtube.com/watch?v=lKXe3HUG2l4[YouTube]).
 
-Code Smells, Refactorings:
-
-* https://www.youtube.com/watch?v=J4dlF0kcThQ[Therapeutic Refactoring] by Katrina Owen
-* https://www.youtube.com/watch?v=PJjHfa5yxlU[Get a Whiff of This] by Sandi Metz
+. Code Smells, Refactorings:
+** https://www.youtube.com/watch?v=J4dlF0kcThQ[Therapeutic Refactoring] by Katrina Owen
+** https://www.youtube.com/watch?v=PJjHfa5yxlU[Get a Whiff of This] by Sandi Metz
 
 
 ## https://github.com/egzamin/slides[Slajdy do wykładu]
