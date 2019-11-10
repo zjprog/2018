@@ -34,6 +34,7 @@ ____
   zob. też Joe Armstrong (one of the inventors of Erlang) The Mess We're In (https://www.youtube.com/watch?v=lKXe3HUG2l4[YouTube]).
 
 . Code Smells, Refactorings:
+.. https://www.youtube.com/watch?v=8bZh5LMaSmE[All the Little Things] by Sandi Metz
 ** https://www.youtube.com/watch?v=J4dlF0kcThQ[Therapeutic Refactoring] by Katrina Owen
 ** https://www.youtube.com/watch?v=PJjHfa5yxlU[Get a Whiff of This] by Sandi Metz
 
