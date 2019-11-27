@@ -26,6 +26,16 @@ ____
 * studia niestacjonarne – **1.12.2019**
 
 
+## Egzamin, prezentacje na wykładach: 9.01, 16.01, 23.01
+
+. Refactoring Trio
+. Codice Dio
+. Artful Maneuvres
+. AI-DEAS
+. DopeCode
+. Kod Specjalnej Troski
+
+
 ## Literatura
 
 . Martin Fowler, *Refactoring: Improving the Design of Existing Code*, 2018 (2nd edition)
