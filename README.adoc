@@ -29,10 +29,10 @@ ____
 ## Egzamin, prezentacje na wykładach: 9.01, 16.01, 23.01
 
 . Refactoring Trio
-. Codice Dio
-. Artful Maneuvres
+. 16.01, Codice Dio
+. 9.01, Artful Maneuvres
 . AI-DEAS
-. DopeCode
+. 9.01, DopeCode
 . Kod Specjalnej Troski
 
 
