@@ -26,7 +26,7 @@ ____
 * studia niestacjonarne – **1.12.2019**
 
 
-## Egzamin, prezentacje na wykładach: 9.01, 16.01, 23.01
+## Egzamin – prezentacje na wykładach, g. 8.30–10.00: 9.01, 16.01, 23.01
 
 . Refactoring Trio
 . 16.01, Codice Dio
