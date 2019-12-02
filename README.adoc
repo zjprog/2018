@@ -26,14 +26,48 @@ ____
 * studia niestacjonarne – **1.12.2019**
 
 
-## Egzamin – prezentacje na wykładach, g. 8.30–10.00: 9.01, 16.01, 23.01
+## Egzamin – styczeń, prezentacje
 
-. Refactoring Trio
-. 16.01, Codice Dio
-. 9.01, Artful Maneuvres
-. AI-DEAS
-. 9.01, DopeCode
-. Kod Specjalnej Troski
+// https://asciidoctor.org/docs/user-manual/#tables
+
+
+### Studia stacjonarne, g. 8.30–10.00, aula 1
+
+[cols=">1h,<2,<5"]
+|===
+h|kiedy?
+h|zespół
+h|tytuł
+
+|9.01
+|DopeCode
+|?
+
+|9.01
+|Artful Maneuvres
+|?
+
+| 16.01
+|Refactoring Trio
+|?
+
+|16.01
+|Codice Dio
+|?
+
+|23.01
+|AI-DEAS
+|?
+
+|23.01
+|Kod Specjalnej Troski
+|?
+|===
+
+
+### Studia niestacjonarne
+
+TODO.
 
 
 ## Literatura
