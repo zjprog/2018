@@ -19,9 +19,22 @@ ____
   [red]#**zaawansowanych**# rzeczy. Na przykład rozszyfrujemy skrótowiec SOLID,
   omówimy różne *refaktoryzacje* oraz zajmiemy się usuwaniem _code smells_:
 
+
 ## Zaliczenie laboratorium
 
-* Gilded Rose – **13.11.2019**
+* studia stacjonarne – **13 i 14.11.2019**
+* studia niestacjonarne – **1.12.2019**
+
+
+## Egzamin – prezentacje na wykładach, g. 8.30–10.00: 9.01, 16.01, 23.01
+
+. Refactoring Trio
+. 16.01, Codice Dio
+. 9.01, Artful Maneuvres
+. AI-DEAS
+. 9.01, DopeCode
+. Kod Specjalnej Troski
+
 
 ## Literatura
 
@@ -32,10 +45,10 @@ ____
 ** Go Ahead, Make a Mess (https://www.youtube.com/watch?v=mpA2F1In41w[YouTube]) +
   zob. też Joe Armstrong (one of the inventors of Erlang) The Mess We're In (https://www.youtube.com/watch?v=lKXe3HUG2l4[YouTube]).
 
-Code Smells, Refactorings:
-
-* https://www.youtube.com/watch?v=J4dlF0kcThQ[Therapeutic Refactoring] by Katrina Owen
-* https://www.youtube.com/watch?v=PJjHfa5yxlU[Get a Whiff of This] by Sandi Metz
+. Code Smells, Refactorings:
+** https://www.youtube.com/watch?v=8bZh5LMaSmE[All the Little Things] by Sandi Metz (Gilded Rose)
+** https://www.youtube.com/watch?v=J4dlF0kcThQ[Therapeutic Refactoring] by Katrina Owen
+** https://www.youtube.com/watch?v=PJjHfa5yxlU[Get a Whiff of This] by Sandi Metz
 
 
 ## https://github.com/egzamin/slides[Slajdy do wykładu]
