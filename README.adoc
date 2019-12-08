@@ -72,7 +72,7 @@ h|tytuł
 |===
 
 
-### Studia niestacjonarne 11, 18, 25
+### Studia niestacjonarne
 
 [cols=">1h,>1h,<2,<4"]
 |===
