@@ -33,41 +33,84 @@ ____
 
 ### Studia stacjonarne, g. 8.30–10.00, aula 1
 
-[cols=">1h,<2,<5"]
+[cols=">1h,>1h,<2,<5"]
 |===
-h|kiedy?
+h|dzień
+h|godzina
 h|zespół
 h|tytuł
 
 |9.01
+|9:20
 |DopeCode
 |?
 
 |9.01
+|9:40
 |Artful Maneuvres
 |?
 
-| 16.01
+|16.01
+|9:20
 |Refactoring Trio
 |?
 
 |16.01
+|9:40
 |Codice Dio
 |?
 
 |23.01
+|9:20
 |AI-DEAS
 |?
 
 |23.01
+|9:40
 |Kod Specjalnej Troski
 |?
 |===
 
 
-### Studia niestacjonarne
+### Studia niestacjonarne 11, 18, 25
 
-TODO.
+[cols=">1h,>1h,<2,<4"]
+|===
+h|dzień
+h|godzina
+h|zespół
+h|tytuł
+
+|11.01
+|13.30
+|What Ever
+|?
+
+|11.01
+|13.50
+|Struna
+|?
+
+|11.01
+|14.10
+|Android Manifest
+|?
+
+|18.01
+|13.30
+|Pragmatic Programmers
+|?
+
+|18.01
+|13.50
+|Grupa 4
+|?
+
+|25.01
+|13.30
+|Refaktorzy
+|?
+|===
 
 
 ## Literatura
