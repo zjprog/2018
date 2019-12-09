@@ -72,7 +72,7 @@ h|tytuł
 |===
 
 
-### Studia niestacjonarne
+### Studia niestacjonarne, g. 13:30-15:00, aula 2
 
 [cols=">1h,>1h,<2,<4"]
 |===
