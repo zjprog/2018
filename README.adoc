@@ -42,6 +42,11 @@ h|tytuł
 
 |9.01
 |9:20
+|Refactoring Duo
+|Gra w życie (Python)
+
+|9.01
+|9:20
 |DopeCode
 |?
 
