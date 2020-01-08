@@ -1,7 +1,7 @@
 :figure-caption!:
 :tocs!:
 
-## Termin egzaminu
+## Zmiana terminów prezentacji projektów na egzamin
 
 Do 17.01 jestem na zwolnieniu lekarskim. Dlatego
 
