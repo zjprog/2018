@@ -1,6 +1,14 @@
 :figure-caption!:
 :tocs!:
 
+## Termin egzaminu
+
+Do 17.01 jestem na zwolnieniu lekarskim. Dlatego
+
+* **Stacjonarne**: egzaminy z 9.01 i 16.01 odbędą się na środowych laboratoriach 22.01.
+* **Niestacjonarne**: egzamin z soboty 11.01 zostanie przeniesiony na niedzielne 
+  laboratoria 19.01. Szczegóły omówimy na początku wykładu 18.01.
+
 ## Zaczynamy 3.10.2019 🚀
 
 [quote, Edsger W. Dijkstra, On the cruelty of really teaching computer science]
