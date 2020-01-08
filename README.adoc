@@ -3,8 +3,7 @@
 
 ## Zmiana terminów prezentacji projektów na egzamin
 
-Do 17.01 jestem na zwolnieniu lekarskim, ale będzie zastępstwo. Będzie można
-przedstawić swój projekt na wykładzie albo na laboratoriach 
+Do 17.01 jestem na zwolnieniu lekarskim, ale będzie **zastępstwo**.
 
 * **Stacjonarne**: egzaminy z 9.01 i 16.01 odbędą się na środowych laboratoriach 22.01;
   będzie można też przedstawić swój projekt na wykładzie.
