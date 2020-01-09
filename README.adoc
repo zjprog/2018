@@ -52,7 +52,7 @@ h|tytuł
 |9.01
 |9:20
 |Refactoring Duo
-|Gra w życie (Python)
+|Gra w życie
 
 |9.01
 |9:20
