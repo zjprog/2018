@@ -57,12 +57,12 @@ h|tytuł
 |9.01
 |9:20
 |DopeCode
-|?
+|Bad code to good code
 
 |9.01
 |9:40
 |Artful Maneuvres
-|?
+|Pokerowe zagrywki
 
 |16.01
 |9:20
