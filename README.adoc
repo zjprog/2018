@@ -75,6 +75,11 @@ h|tytuł
 |?
 
 |23.01
+|8:40
+|Kodala
+|?
+
+|23.01
 |9:00
 |Refraktoryzacyjne Świry
 |?
