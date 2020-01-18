@@ -126,6 +126,12 @@ h|prez
 h|pdf
 
 |11.01
+|13:10
+|Pajkon
+|T
+|T
+
+|11.01
 |13:30
 |What Ever
 |T
@@ -169,12 +175,6 @@ h|pdf
 
 |18.01
 |14:30
-|Pajkon
-|T
-|T
-
-|18.01
-|14:50
 |Refaktoring z wężykami
 |?
 |T
