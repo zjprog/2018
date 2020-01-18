@@ -147,7 +147,7 @@ h|pdf
 |14:10
 |Android Manifest
 |?
-|?
+|T
 
 |11.01
 |14:30
@@ -158,25 +158,25 @@ h|pdf
 |18.01
 |13:30
 |Pragmatic Programmers
-|?
+|T
 |T
 
 |18.01
 |13:50
-|Grupa 4
-|?
-|?
+|Czysty kod
+|T
+|T
 
 |18.01
 |14:10
 |Kodersi
-|?
-|?
+|T
+|T
 
 |18.01
 |14:30
 |Refaktoring z wężykami
-|?
+|T
 |T
 
 |25.01
