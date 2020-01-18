@@ -117,7 +117,7 @@ h|pdf
 
 ### Studia niestacjonarne, g. 13:30-15:00, aula 2
 
-[cols=">1h,>1h,<2,<4,^1h,^1h"]
+[cols=">1h,>1h,<2,^1h,^1h"]
 |===
 h|dzień
 h|godzina
