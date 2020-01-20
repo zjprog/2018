@@ -41,6 +41,16 @@ ____
 
 ### Studia stacjonarne, g. 8.30–10.00, aula 1
 
+Egzamin na laboratoriach w środę 23.01: 
+
+. Niekompetentne duo
+. Refactoring Duo
+. DopeCode
+. Artful Maneuvres
+. Refactoring Trio
+. Codice Dio
+. Kodala
+
 [cols=">1h,>1h,<2,<5,^1h,^1h"]
 |===
 h|dzień
@@ -49,48 +59,6 @@ h|zespół
 h|tytuł
 h|prez
 h|pdf
-
-|9.01
-|9:20
-|Refactoring Duo
-|Gra w życie
-|?
-|?
-
-|9.01
-|9:20
-|DopeCode
-|Bad code to good code
-|?
-|?
-
-|9.01
-|9:40
-|Artful Maneuvres
-|Pokerowe zagrywki
-|?
-|?
-
-|16.01
-|9:20
-|Refactoring Trio
-|?
-|?
-|?
-
-|16.01
-|9:40
-|Codice Dio
-|?
-|?
-|?
-
-|23.01
-|8:20
-|Kodala
-|?
-|?
-|?
 
 |23.01
 |8:40
