@@ -7,7 +7,6 @@ Do 17.01 jestem na zwolnieniu lekarskim, ale będzie **zastępstwo**.
 
 * **Stacjonarne**: egzaminy z 9.01 i 16.01 odbędą się na środowych laboratoriach 22.01:
 
-. Niekompetentne duo
 . Refactoring Duo
 . DopeCode
 . Artful Maneuvres
@@ -83,6 +82,13 @@ h|pdf
 |23.01
 |9:40
 |Kod Specjalnej Troski
+|?
+|?
+|?
+
+|23.01
+|10:00
+|Niekompetentne duo
 |?
 |?
 |?
