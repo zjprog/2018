@@ -12,7 +12,6 @@ Do 17.01 jestem na zwolnieniu lekarskim, ale będzie **zastępstwo**.
 . Artful Maneuvres
 . Refactoring Trio
 . Codice Dio
-. Kodala
 
 * **Niestacjonarne**: egzamin z soboty 11.01 zostanie przeniesiony na niedzielne 
   laboratoria 19.01; będzie można też przedstawić swój projekt 11.01.
@@ -89,6 +88,13 @@ h|pdf
 |23.01
 |10:00
 |Niekompetentne duo
+|?
+|?
+|?
+
+|23.01
+|10:20
+|Kodala
 |?
 |?
 |?
