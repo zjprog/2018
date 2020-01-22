@@ -1,21 +1,6 @@
 :figure-caption!:
 :tocs!:
 
-## Zastępstwo i zmiany terminów prezentacji projektów
-
-Do 17.01 jestem na zwolnieniu lekarskim, ale będzie **zastępstwo**.
-
-* **Stacjonarne**: egzaminy z 9.01 i 16.01 odbędą się na środowych laboratoriach 22.01:
-
-. Refactoring Duo
-. DopeCode
-. Artful Maneuvres
-. Refactoring Trio
-. Codice Dio
-
-* **Niestacjonarne**: egzamin z soboty 11.01 zostanie przeniesiony na niedzielne 
-  laboratoria 19.01; będzie można też przedstawić swój projekt 11.01.
-
 ## Zaczynamy 3.10.2019 🚀
 
 [quote, Edsger W. Dijkstra, On the cruelty of really teaching computer science]
