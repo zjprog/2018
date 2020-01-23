@@ -44,36 +44,42 @@ h|pdf
 |23.01
 |8:40
 |Suchy chleb
-|?
-|?
+|T
+|T
 
 |23.01
 |9:00
 |Refraktoryzacyjne Świry
-|?
-|?
+|T
+|T
 
 |23.01
 |9:20
 |AI-DEAS
-|?
-|?
+|T
+|T
 
 |23.01
 |9:40
 |Kod Specjalnej Troski
-|?
-|?
+|T
+|T
 
 |23.01
 |10:00
 |Niekompetentne duo
+|T
+|T
+
+|23.01
+|10:20
+|Kodala
 |?
 |?
 
 |23.01
-|10:20
-|Kodala, 404
+|10:40
+|Grupa 404
 |?
 |?
 |===
