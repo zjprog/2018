@@ -33,19 +33,17 @@ ____
 
 ### Studia stacjonarne, g. 8.30–10.00, aula 1
 
-[cols=">1h,>1h,<2,<5,^1h,^1h"]
+[cols=">1h,>1h,<2,^1h,^1h"]
 |===
 h|dzień
 h|godzina
 h|zespół
-h|tytuł
 h|prez
 h|pdf
 
 |23.01
 |8:40
 |Suchy chleb
-|Tennis kata
 |?
 |?
 
@@ -54,12 +52,10 @@ h|pdf
 |Refraktoryzacyjne Świry
 |?
 |?
-|?
 
 |23.01
 |9:20
 |AI-DEAS
-|?
 |?
 |?
 
@@ -68,19 +64,16 @@ h|pdf
 |Kod Specjalnej Troski
 |?
 |?
-|?
 
 |23.01
 |10:00
 |Niekompetentne duo
 |?
 |?
-|?
 
 |23.01
 |10:20
 |Kodala, 404
-|?
 |?
 |?
 |===
